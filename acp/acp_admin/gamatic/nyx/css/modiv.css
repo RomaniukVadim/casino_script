@@ -1,0 +1,2482 @@
+.Geniewild {
+
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+	text-decoration: none;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 8pt;
+	color: #666;
+  background: #ddd;
+
+}
+
+
+/* стили для админки*/
+#container{
+/*
+  border: 1px solid red ;
+*/
+  border: none ;
+  position:relative;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  text-align: center ;
+  width: 1000px;
+  margin: 0 auto;
+}
+.ladder {
+ padding-bottom:26px;
+ width: 95%;
+
+}
+.footer{
+  position: relative;
+  margin-top: -25px;
+  height: 25px;
+  text-align: center ;
+ }
+
+/* список */
+.listen {
+ text-align: left ;
+ list-style: none;
+ margin: 0;
+ border: solid 0px magenta;
+}
+.listen li {
+ border: solid 0px red;
+}
+
+
+ul.listen li {
+ display: inline;
+}
+
+.ListTblr {
+ float: right ;
+}
+/* // список */
+
+.radius {
+ text-shadow: 1px 1px #BEF3F5;
+ border: 1px solid #65B3B6;
+ border-top: 1px solid #87D3D5;
+ border-bottom: 1px solid #47989B ;
+ border-radius: 3px;
+ box-shadow:
+  inset 0 1px #D4F8F8,
+  inset 1px 0 #B1F1F3,
+  inset -1px 0 #B1F1F3,
+  inset 0 -1px #98ECEE,
+  0 2px #4FA7AA,
+  0 3px #47989B,
+  0 4px 2px rgba(0,0,0,0.4)	;
+ background: -moz-linear-gradient(top,  #b7f2f4 0%, #81e8eb 100%); /* FF3.6+ */
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7f2f4), color-stop(100%,#81e8eb)); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(top,  #b7f2f4 0%,#81e8eb 100%); /* Chrome10+,Safari5.1+ */
+ background: -o-linear-gradient(top,  #b7f2f4 0%,#81e8eb 100%); /* Opera 11.10+ */
+ background: -ms-linear-gradient(top,  #b7f2f4 0%,#81e8eb 100%); /* IE10+ */
+ background: linear-gradient(top,  #b7f2f4 0%,#81e8eb 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7f2f4', endColorstr='#81e8eb',GradientType=0 ); /* IE6-9 */
+ background-color: #9BEDEF;
+}
+
+
+/* Верхняяя панель CSS DropMenu */
+.dropbar {
+ text-align: center ;
+ border: none ;
+ width:100%;
+ height: 30px;
+ /*border: 1px solid green ;*/
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7f2f4', endColorstr='#003366',GradientType=0 ); /* IE6-9 */
+ background: -moz-linear-gradient(top,  #b7f2f4 0%, #003366 100%); /* FF3.6+ */
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7f2f4), color-stop(100%,#003366)); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(top,  #b7f2f4 0%,#003366 100%); /* Chrome10+,Safari5.1+ */
+ background: -o-linear-gradient(top,  #b7f2f4 0%,#003366 100%); /* Opera 11.10+ */
+ background: -ms-linear-gradient(top,  #b7f2f4 0%,#003366 100%); /* IE10+ */
+ background: linear-gradient(top,  #b7f2f4 0%,#81e8eb 100%); /* W3C */
+ background: gradient(linear, top,  #b7f2f4,  #81e8eb);
+/* border: none ;
+*/
+}
+
+ul.DropMenu {
+ text-align: center ;
+ width:100%;
+ padding: 0 0PX;
+ margin: 0 0PX;
+ border: 0px solid black ;
+ height: 30x;
+ /*
+ z-index: 0;
+ border: 1px solid green;
+ background: #003366;  
+ height: 25px;
+ font: bold 12px/28px Verdana, Arial;
+ list-style: none;
+ */
+}
+
+ul.DropMenu li { /* форматирование меню*/
+ z-index: 2 ;
+ margin: 0;
+ padding: 0;
+ border: 0px solid red ;
+ float: left;
+ list-style: none;
+ position: relative;/* отображаем суб меню на том месте где был вызов*/
+/*
+
+
+ display: inline;
+*/
+}
+ul.DropMenu ul {/* форматирование меню*/
+ margin: 0;
+ border: none;
+ padding: 0;
+ width: 160px;
+ list-style: none;
+ display: none;
+ position: absolute;
+ top: 30px;
+ left: 0;
+}
+/*
+ul.DropMenu ul:after { / * Х.З Зачем* /
+ clear: both;
+ display: block;
+ font: 1px/0px serif;
+ content: ".";
+ height: 0;
+ visibility: hidden;
+ border: 1px solid red ;
+}
+*/
+/* Main Menu */
+
+ul.DropMenu .activio {/* верхнее меню-навигатор с сылками*/
+ height: auto !important;
+ float: none !important;
+ float: left;
+ padding: 1px 10px;
+ max-width: 100%;
+ text-decoration: none;
+ cursor: pointer;
+ color: #FFFFCF;
+ font: bold 12px/28px Verdana, Arial;
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7f2f4', endColorstr='#003366',GradientType=0 ); /* IE6-9 */
+ background: -moz-linear-gradient(top,  #b7f2f4 0%, #003366 100%); /* FF3.6+ */
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7f2f4), color-stop(100%,#003366)); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(top,  #b7f2f4 0%,#003366 100%); /* Chrome10+,Safari5.1+ */
+ background: -o-linear-gradient(top,  #b7f2f4 0%,#003366 100%); /* Opera 11.10+ */
+ background: -ms-linear-gradient(top,  #b7f2f4 0%,#003366 100%); /* IE10+ */
+ background: linear-gradient(top,  #b7f2f4 0%,#81e8eb 100%); /* W3C */
+ background: gradient(linear, top,  #b7f2f4,  #81e8eb);
+ border: none ;
+ /*
+ display: block;
+ background: #003366;
+ height: 1%;
+ border: 1px solid red;
+ text-shadow: 0.5px 0px #BEF3F5;
+ background-color: #003366;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f97d0', endColorstr='#0454a8');
+ background: -webkit-gradient(linear, left top, left bottom, from(#0f97d0), to(#0454a8));
+ background: -moz-linear-gradient(top,  #0f97d0,  #0454a8); 
+ background: gradient(linear, top,  #0f97d0,  #0454a8);
+*/
+}
+/* Main Menu Hover */
+ul.DropMenu .activio:hover,ul.DropMenu li:hover .activio,ul.DropMenu li.iehover .activio {
+ /*background: #FFFFFF;*/
+ color:#003366;
+ border: none ;
+}
+/* Second Menu */
+ul.DropMenu ul li {/* форматирование вторичного меню*/
+ width: 150px;
+ float: left;
+ display: block !important;
+ display: inline;
+}
+
+ul.DropMenu li:hover li .activio,ul.DropMenu li.iehover li .activio {
+ border: none;
+ float: none;
+ background: #003366;
+ color: #fff;
+ font: bold 12px/28px Verdana, Arial;
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003366', endColorstr='#111',GradientType=0 ); /* IE6-9 */
+ background: -moz-linear-gradient(top,  #111 0%, #003366 100%); /* FF3.6+ */
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7f2f4), color-stop(100%,#003366)); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(top,  #b7f2f4 0%,#003366 100%); /* Chrome10+,Safari5.1+ */
+ background: -o-linear-gradient(top,  #b7f2f4 0%,#003366 100%); /* Opera 11.10+ */
+ background: -ms-linear-gradient(top,  #b7f2f4 0%,#003366 100%); /* IE10+ */
+ background: linear-gradient(top,  #b7f2f4 0%,#81e8eb 100%); /* W3C */
+ background: gradient(linear, top,  #b7f2f4,  #81e8eb);
+}
+/* Second Menu Hover */
+ul.DropMenu li:hover li .activio:hover,ul.DropMenu li:hover li:hover .activio,ul.DropMenu li.iehover li .activio:hover,ul.DropMenu li.iehover li.iehover .activio {
+ background: #FFFFFF;
+ color:#003366;
+ border: none;
+ font: bold 12px/28px Verdana, Arial;
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7f2f4', endColorstr='#003366',GradientType=0 ); /* IE6-9 */
+ background: -moz-linear-gradient(top,  #b7f2f4 0%, #003366 100%); /* FF3.6+ */
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7f2f4), color-stop(100%,#003366)); /* Chrome,Safari4+ */
+ background: -webkit-linear-gradient(top,  #b7f2f4 0%,#003366 100%); /* Chrome10+,Safari5.1+ */
+ background: -o-linear-gradient(top,  #b7f2f4 0%,#003366 100%); /* Opera 11.10+ */
+ background: -ms-linear-gradient(top,  #b7f2f4 0%,#003366 100%); /* IE10+ */
+ background: linear-gradient(top,  #b7f2f4 0%,#81e8eb 100%); /* W3C */
+ background: gradient(linear, top,  #b7f2f4,  #81e8eb);
+
+
+}
+ul.DropMenu ul ul {
+ display: none;
+ position: absolute;
+ top: 0;
+ left: 170px;
+}
+ul.DropMenu li:hover ul ul,ul.DropMenu li.iehover ul ul {
+ display: none;
+}
+ul.DropMenu li:hover ul,ul.DropMenu ul li:hover ul,ul.DropMenu li.iehover ul,ul.DropMenu ul li.iehover ul {
+ display: block;
+}                       
+/* / Верхняяя панель  */ 
+ 
+/* правое-левое меню */
+.LeftCont{
+  border: 1px solid red;
+  text-align: center ;
+  width: 100% ;
+  padding: 0px 0px 0px;
+  margin: 0px;
+ }
+.RightCont{
+  border: 1px solid red;
+  text-align: right ;
+  float: right ;
+  clear: both ;
+ }
+.RightMenu p, .RightMenu{
+  text-align: center ;
+  color: white;
+  background: #333366;
+  padding: 5px 0px 5px;
+  margin: 0px;
+ }
+
+.doubleCont{
+  border: 1px solid red;
+  text-align: left ;
+  width: 100% ;
+  float: right ; 
+ }
+.doubleContin1{
+  border: 1px solid red;
+  text-align: left ;
+  float: left ; 
+  width: 250px ;
+  padding: 0px 0px 0px;
+  margin: 1px;
+ }
+
+.doubleContin2{
+  border: 1px solid red;
+  text-align: left ;
+  float: left ; 
+  width: 300px ;
+  padding: 0px 0px 0px;
+  margin: 1px;
+ }
+
+.navlist{
+  padding: 0 1px 1px;
+  margin: 0px;
+  font: bold 12px Verdana, sans-serif;
+  background: gray;
+  width: 320px;
+ }
+
+.navlist li{
+  list-style: none;
+  margin: 0;
+  border-top: 1px solid gray;
+  text-align: left;
+ }
+
+.navlist li a{
+  display: block;
+  padding: 0.25em 0.5em 0.25em 0.75em;
+  border-left: 1em solid #AAB;
+  background: #CCD;
+  text-decoration: none;
+ }
+
+.navlist li a:link { color: navy; }
+.navlist li a:visited { color: #333366; }
+.navlist li a:hover{
+  border-color: #FE3;
+  color: #FFF;
+  background: #332;
+ }
+
+.StatMenu{
+  display: block;
+  padding: 0.25em 0.5em 0.25em 0.75em;
+  border-left: 0px solid #AAB;
+  background: #CCD;
+
+  padding: 0 1px 1px;
+  margin: 0px;
+  font: bold 12px Verdana, sans-serif;
+  background: gray;
+  width: 320px;
+
+}
+.StatMenu li{
+  text-align: left ;
+  text-decoration: none;
+  list-style: none;
+
+}
+/* //правое меню */
+/* правое меню 2 */
+.menu, .menu ul, .menu li {
+        margin: 0;
+        border: 0 none;
+        padding: 0;
+        width: 160px; 
+        list-style: none;
+}
+.menu {
+        margin: 5px;
+        padding: 5px;
+}
+.menu ul {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 160px;
+}
+.menu li {
+        position: relative;
+        border-bottom: #ff9999 2px solid;
+        background: #003366;
+}
+.menu a {
+        padding: 0 6px;
+        display: block;
+        font: bold 12px/28px Verdana, Arial;
+        text-decoration: none;
+        color: #ffffff;
+}
+.menu li:hover > ul {
+        display: block;
+}
+.menu li:hover > a {
+        background: #ffffff;
+        color: #003366;
+}
+/* // правое меню 2*/
+/* Статистика */
+.StatsMenu {
+        margin: 5px;
+        padding: 5px;
+}
+
+.StatsMenu_ce{
+        text-align: left;
+
+}
+.StatsMenu, .StatsMenu ul, .StatsMenu li {
+        margin: 0;
+        border: 0 none;
+        padding: 0;
+        width: 160px; 
+        list-style: none;
+
+}
+.StatsMenu ul {
+        /*display: none;*/
+        position: absolute;
+        top: 0px;
+        left: 160px;
+}
+.StatsMenu li {
+        position: relative;
+        /*border-bottom: #ff9999 2px solid;
+        background: gray;*/
+}
+.StatsMenu li:hover > ul {
+        display: block;
+}
+/* //Статистика */
+/* слайдер меню */
+#slidemenubar, #slidemenubar2{
+ z-index: 50;
+ position:absolute;
+ border:1.5px solid black; /* <—-толщина и цвет границы——*/
+ background-color:#F2F2F2; /* <—-фон меню——*/
+ layer-background-color:#F2F2F2;
+ font:bold 12px Verdana; /* <—-фон, высота, название шрифта——*/
+ line-height:20px;
+}
+/* // слайдер меню */
+
+
+/* подсказки CSS*/
+.h_tooltip {
+ border-bottom: 0px dotted #000000; 
+ color: #000000; 
+ outline: none;
+ cursor: help; 
+ text-decoration: none;
+ position: relative;
+}
+.h_tooltip span {
+	margin-left: -999em;
+	position: absolute;
+}
+.h_tooltip:hover span {
+	border-radius: 5px 5px; -moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); 
+	-webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); 
+	-moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	font-family: Calibri, Tahoma, Geneva, sans-serif;
+	position: absolute; 
+	left: 1em; 
+	top: 2em;
+	z-index: 99;
+	margin-left: 0;
+	width: 250px;
+}
+.h_tooltip:hover img {
+	border: 0; 
+	margin: -10px 0 0 -55px;
+	float: left; 
+	position: absolute;
+}
+.h_tooltip:hover em {
+	font-family: Candara, Tahoma, Geneva, sans-serif; 
+	font-size: 1.2em;
+	font-weight: bold;
+	display: block; 
+	padding: 0.2em 0 0.6em 0;
+}
+.h_custom { 
+ padding: 0.5em 0.8em 0.8em 2em; 
+}
+* html a:hover { background: transparent; }
+.h_classic {
+ background: #FFFFAA; 
+ border: 1px solid #FFAD33;
+ font-size: 12px;
+ text-align: left;
+ padding: 0.8em 1em; 
+ outline: none; 
+ text-align: center;
+}
+.h_critical { 
+ background: #FFCCAA; border: 1px solid #FF3334;	
+}
+.h_help { 
+ background: #9FDAEE; border: 1px solid #2BB0D7;	
+}
+.h_info {
+ background: #9FDAEE; border: 1px solid #2BB0D7;	
+}
+.h_warning {
+ background: #FFFFAA; border: 1px solid #FFAD33; 
+}
+/* / подсказки CSS*/
+
+/* выплаты WM*/
+.toptext {
+ text-align: center;
+ background-color: #99CCCC;
+ color: #676567;
+ font-size: 14px;
+ font-weight: bold ;
+
+}
+.nigtext {
+ text-align: center;
+ background-color: #6593C0;
+ color: gold;
+ font-size: 14px;
+ font-weight: bold ;
+}
+.spitext {
+ text-align: center;
+ background-color: #ffffff;
+ color: #676567;
+ font-size: 11px;
+ font-weight: bold ;
+}
+/* Div modifications */
+.phadtop{
+  padding-bottom: 10px; 
+  color: silver; 
+  text-align: center; 
+  font-size:19px; 
+  font-weight: bold;
+  width: 660px;
+ }
+.withdpay1 {
+  width: 405px;
+  height: 25px;
+  border-bottom:1px solid #AFA997; 
+  float: left;
+  text-align: right;
+  font-size:12px;
+  font-weight: bold ;
+ }
+
+.withdpay2 {
+  width: 505px;
+  height: 25px;
+  background-color: transparent ;
+  border-bottom:1px solid #AFA997; 
+  float: left;
+  text-align: center;
+  font-size:12px;
+  font-weight: bold ;
+ }
+.withdpay3 {/* пповерить и удалить*/
+  height: 25px;
+  border-bottom:1px solid #AFA997; 
+  background-color: #6593C0;
+  color: #990000; 
+  float: left;
+  text-align: center;
+  font-size:12px;
+  font-weight: bold ;
+ }
+
+.withdpay4 {
+  width: 146px;
+  height: 35px;
+  border-bottom:1px solid #AFA997; 
+  float: left;
+  text-align: center;
+  font-size:12px;
+ font-weight: bold ;
+ }
+.withdpay5 {
+  width: 146px;
+  height: 35px;
+  border-bottom:1px solid #AFA997; 
+  float: left;
+  text-align: center;
+  font-size:12px;
+ font-weight: bold ;
+ }
+.withdpay6 {
+  width: 50px;
+  height: 35px;
+  border-bottom:1px solid #AFA997;
+  float: left;
+ }
+
+.withdpay7 {
+  width: 146px;
+  height: 35px;
+  background-color: magenta;
+  border-bottom:1px solid #AFA997;
+  float: left;
+  text-align: center;
+  font-size:12px;
+  font-weight: bold ;
+ }
+.withdpay8 {
+  width: 211px;
+  height: 35px;
+  border-bottom:1px solid #AFA997;
+  float: left;
+ }
+.withdpay9 {
+  width: 764px;
+  height: 35px;
+  border-bottom:1px solid #AFA997;
+  float: left;
+  text-align: center;
+  font-size:12px;
+  font-weight: bold ;
+ }
+.withdpay10 {
+  width: 300px;
+  height: 25px;
+  background-color: transparent ;
+  border-bottom:1px solid #AFA997; 
+  float: left;
+  text-align: center;
+  font-size:12px;
+  font-weight: bold ;
+ }
+.withdpay11 {
+  width: 205px;
+  height: 25px;
+  background-color: transparent ;
+  border-bottom:1px solid #AFA997; 
+  float: left;
+  text-align: left;
+  font-size:12px;
+  font-weight: bold ;
+ }
+
+
+.withdpay1, .withdpay2, .withdpay3, .withdpay4, .withdpay5 , .withdpay6, .withdpay7, .withdpay8 , .withdpay9, .withdpay10, .withdpay11 {
+  border-bottom: 3px dotted #9ECAE9 ;
+}
+.withdpay9 p, .withdpay3 p {
+  margin-left: 10px; 
+  margin-top: 5px; 
+}
+
+
+.linkblock:hover{ 
+  background-color: #DBEFFF ; 
+ }
+
+.linkblock {
+  cursor:pointer;
+}
+/* // выплаты WM*/
+
+/* Список заказов*/
+.withdrw01 {
+  width: 40px;
+  clear: left ;
+}
+.withdrw02 {
+  width: 150px;
+}
+.withdrw03 {
+  width: 60px;
+}
+.withdrw04 {
+  width: 80px;
+}
+.withdrw05 {
+  width: 120px;
+}
+.withdrw06 {
+  width: 80px;
+}
+.withdrw07 {
+  width: 120px;
+}
+.withdrw08 {
+  width: 90px;
+}
+.withdrw09 {
+  width: 70px;
+}
+.withdrw10 {
+  width: 90px;
+  border-right:1px solid #AFA997;
+}
+.tablewid div, .tablebol div {
+  height: 33px;
+  text-align: center;
+  font-size: 11px;
+  float: left;
+  border-left:1px solid #AFA997;
+  border-bottom:1px solid #AFA997; 
+  
+}
+
+.tablebol div{
+  font-size: 12px;
+  font-weight: bold ;
+}
+.tablebol p, .tablewid p {
+  margin-left: 0px; 
+  margin-top: 10px; 
+}
+.okpay{
+ color:green ;
+}
+
+.gopay{
+ color:Crimson ;
+}
+
+.returnpay{
+ color:Chocolate; 
+}
+
+.banpay{
+ color:Steelblue ;
+}
+
+.errpay{
+ color:red ;
+}
+
+.ps_Webmoney {
+ background-color: #99CCCC;
+ color: #FFFF00;
+}
+
+.ps_ {
+ background-color: #FF9999;
+}
+.footbotom{
+  height: 200px;
+  margin-top: 10%; 
+  text-align: center;
+  color: red ;
+  font-size: 19px;
+}
+/* // Список заказов*/
+
+/* админ панель для слотов*/
+.bankcontainer {
+  margin: auto; 
+  text-align: center ;
+  position: float ;
+  clear:both ; 
+  border:0px solid green;
+}
+.blockstat {
+  margin: auto; 
+  clear:both ; 
+  color: gold; 
+  letter-spacing:2px ;
+  font-weight:bold ;
+  text-align: center;
+  margin-bottom: 2px; 
+  font-size: 11px;
+  border:2px none;
+  background-color: #6593C0 ;
+}
+
+.bankset {
+  margin: auto; 
+  clear:both ; 
+  color: gold; 
+  letter-spacing:2px ;
+  font-weight:bold ;
+  text-align: center;
+  margin-bottom: 2px; 
+  font-size: 11px;
+  border:0px none;
+  background-color: #6593C0 ;
+}
+
+
+
+.statmenu {
+  margin: auto;
+  /* 
+  width: 910px;
+  */
+}
+
+.banksetimg {
+  float: left;
+  text-align: center;
+  width: 170px;
+  height: 76px;
+  margin-top: 2px; 
+  margin-bottom: -10px; 
+  text-align: center;
+  color:#000000 ;
+  background-color: #ffffff;
+}
+.banksetimg:hover {
+  background-color: #EEFFFF;
+  cursor:pointer;
+}
+
+.banksetcomm{
+  list-style-type: none;
+  float: right;
+  color: #333366 ;
+  margin-top: 2px; 
+  text-align: right;
+  width: 730px;
+  border-bottom: 3px dotted #9ECAE9 ;
+  margin-bottom: 5px;
+}
+.banksetnon{
+ display: inline;
+ list-style: none;
+ margin-top: 5px; 
+}
+
+
+
+.bankname {
+  float: left;
+  margin-top: 0px; 
+  text-align: right;
+  width: 300px;
+  font-size: 11px;
+ 
+  }
+.bankvol {
+  float: left;
+  margin-top: 5px; 
+  text-align: right;
+  width: 36px;
+  font-size: 11px;
+  }
+.bankname2 {
+  float: left;
+  margin-top: 0px; 
+  text-align: right;
+  width: 250px;
+  font-size: 11px;
+  }
+.bankvol2{
+  float: left;
+  margin-top: 5px; 
+  text-align: right;
+  width: 20px;
+  font-size: 11px;
+  }
+.bankname3 {
+  float: left;
+  margin-top: 0px; 
+  text-align: right;
+  width: 230px;
+  font-size: 11px;
+  }
+.bankvol3 {
+  margin-top: 5px; 
+  text-align: right;
+  width: 20px;
+  font-size: 11px;
+  }
+.banksetg {
+  float: left;
+  margin-top: 0px; 
+  text-align: right;
+  width: 550px;
+  font-size: 11px;
+ 
+  }
+.banksetv {
+  float: left;
+  margin-top: 0px; 
+  text-align: center;
+  width: 450px;
+  font-size: 11px;
+  }
+.bankseti {
+  float: left;
+  margin-top: 0px; 
+  text-align: right;
+  width: 90px;
+  font-size: 11px;
+  }
+.banksets {
+  float: left;
+  margin-top: 5px; 
+  text-align: right;
+  width: 330px;
+  font-size: 11px;
+  }
+.bankbonus {
+  float: left;
+  margin-top: 0px; 
+  text-align: right;
+  width: 200px;
+  font-size: 11px;
+  }
+.banksetj {
+  float: left;
+  margin-top: 5px; 
+  text-align: right;
+  width: 400px;
+  font-size: 11px;
+  }
+  
+.banksetf {
+  float: left;
+  margin-top: 5px; 
+  text-align: left;
+  width: 400px;
+  font-size: 11px;
+  }
+.banksetf1 {
+  float: left;
+  margin-top: 0px; 
+  text-align: right;
+  width: 200px;
+  font-size: 11px;
+  }
+ 
+.bankbonus1 {
+  float: left;
+  margin-top: 10px; 
+  text-align: right;
+  width: 190px;
+  font-size: 11px;
+  }
+.bankbonus2 {
+  float: left;
+  margin-top: 0px; 
+  text-align: right;
+  width: 330px;
+  font-size: 11px;
+  }
+.bankbonus3 {
+  float: right;
+  margin-top: 0px; 
+  text-align: right;
+ /*
+  width: 330px;
+  font-size: 11px;
+ 
+ */ 
+  }
+
+.bankpayset {
+  float: left;
+  margin-top: 10px; 
+  text-align: right;
+  width: 190px;
+  font-size: 11px;
+  }
+.bankcomment {
+  float: left;
+  margin-top: 10px; 
+  text-align: left;
+  width: 190px;
+  font-size: 11px;
+  color: blue ;
+  }
+.bankalloc  {
+  color: blue ;
+  }
+
+.stub1 {
+  margin-top: 0px; 
+  text-align: right;
+  width: 470px;
+}
+.stub2 {
+  margin-top: 5px; 
+  text-align: left;
+  width: 610px;
+  float: left;
+}
+.stub3 {
+  float: left;
+  margin-top: 10px; 
+  text-align: left;
+  width: 560px;
+  border: 0px solid red ;
+}
+.stub4 {
+  float: left;
+  margin-top: 10px; 
+  text-align: left;
+  width: 630px;
+}
+.stub5 {
+  float: left;
+  margin-top: 10px; 
+  text-align: left;
+  width: 200px;
+}
+.stub6 {
+  float: left;
+  margin-top: 5px; 
+  text-align: left;
+  width: 654x;
+}
+.lineshr {
+  float: left;
+  border-top: 3px dotted #9ECAE9 ;
+  margin-bottom: 0px; 
+}
+.bankparam1{
+  float: left;
+  margin-bottom: 0px; 
+  width: 380px;
+}
+.bankparam2{
+  float: left;
+  margin-bottom: 0px; 
+  width: 265px;
+  text-align: right;
+}
+.bankadd1{
+  float: left;
+  text-align: right;
+  margin-bottom: 0px; 
+  width: 220px;
+}
+.bankadd2{
+  float: left;
+  margin-top: 5px; 
+  margin-bottom: 0px; 
+  width: 150px;
+}
+.bankadd3{
+  float: left;
+  margin-bottom: 0px; 
+  width: 250px;
+}
+.banksetval{
+  float: left;
+  margin-top: 5px; 
+  text-align: left;
+  width: 455px;
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+.banksetotr {
+  float: left;
+  margin-top: 5px; 
+  text-align: left;
+  width: 255px;
+  margin-bottom: 5px;
+  font-size: 11px;
+
+}
+.banksetmin {
+  float: left;
+  margin-top: 5px; 
+  text-align: left;
+  width: 70px;
+  margin-bottom: 5px;
+  font-size: 11px;
+}
+.banksetyes {
+  float: left;
+  margin-top: 5px; 
+  text-align: left;
+  width: 405px;
+  margin-bottom: 5px;
+  font-size: 11px;
+
+}
+.bankbtn {
+  float: left;
+  margin-top: 0px; 
+  text-align: right;
+  width: 100px;
+  font-size: 11px;
+  border: none ;
+  }
+.snosko {
+ color: #990033;
+}
+.snoskotext {
+ color: #3399FF;
+}
+.banknavigator {
+  float: left;
+  margin-top: 0px; 
+  text-align: center;
+  width: 100px;
+  font-size: 11px;
+  border: none ;
+  }
+.bankdelitel {
+  float: left;
+  margin-top: 0px; 
+  text-align: center;
+  width: 10px;
+  font-size: 11px;
+  border: none ;
+  }
+.bankkeydo {
+  float: left;
+  margin-top: 0px; 
+  text-align: left;
+  width: 65px;
+  font-size: 11px;
+  border: none ;
+  }
+.bankvolsd {
+  float: left;
+  margin-top: 5px; 
+  text-align: center;
+  width: 40px;
+  font-size: 11px;
+  border: none ;
+  }
+.bankkeydo2 {
+  float: left;
+  margin-top: 5px; 
+  text-align: center;
+  width: 150px;
+  font-size: 11px;
+  border: none ;
+  }
+.bankkeystr {
+  float: left;
+  margin-top: 0px; 
+  text-align: right;
+  width: 280px;
+  font-size: 11px;
+  border: none ;
+  }
+  
+.lineshr1 {
+  color: #555; /*для IE */
+  background-color:#555; /*для Firefox, Opera, Safari*/
+  border:0px none ;
+  height:1px; /* высота 1px IE, Firefox, Opera, Safari */
+  margin-top: 0px; 
+  margin-bottom: 0px; 
+  /*
+  margin-right: 0px; 
+  */
+  text-align:left ;
+}
+.lineshr2 {
+  color: #555; /*для IE */
+  background-color:#555; /*для Firefox, Opera, Safari*/
+  border:0px none ;
+  height:1px; /* высота 1px IE, Firefox, Opera, Safari */
+  margin-bottom: 0px; 
+  margin-left: 1px; 
+  margin-right: 1px; 
+  clear:both; /* для очистки, если тег идет после float елемента */
+
+}
+  
+.linkblock:hover{ 
+  color:#000000 ;
+  background-color: #b8860b;
+ }
+.linkblock {
+  cursor:pointer;
+}
+.bankbonus11, .stub51 {
+  border: 1px solid magenta ;
+
+}
+/*============================================*/
+.cellsBlock {
+ width: 100%;
+ display: table;
+}
+.cellLeft, .cellMiddle, .cellRight {
+ display: table-cell !important;
+ display: inline; /* для IE */
+ border-top: 2px solid #fff ;
+ border-bottom : 2px solid #fff ;
+ padding-top: 5px; 
+}
+.cellLeft, .cellRight {
+ width:5%;
+ background-color: #7C87C2 ;
+}
+.cellMiddle {
+ width:5%;
+ height:1px;
+ background-color: #7C87C2 ;
+}
+.cellLeft, .cellMiddle {
+ border-right: 3px solid #fff ;
+}
+.cellRight {
+ border-top: 2px double #fff ;
+}
+.cellLeft p, .cellMiddle p, .cellRight p {
+ background-color: #E5EFFD ;
+ height:20px;
+ margin-top: -5px; 
+ margin-bottom: -5px; 
+ padding-top: 5px; 
+ padding-bottom: 0px; 
+ color: #777 ;
+}
+/*============================================*/
+
+/*  убрать этот говно код !!!
+.banksstats1, .banksstats2, .banksstats3, .banksstats4, .banksstats5, .banksstats6 {
+  float: left;
+  height: 30px;
+  text-align: center;
+  font-size: 11px;
+  letter-spacing:2px ;
+  font-weight:bold ;
+  margin-top: 0px; 
+  margin-bottom: 0px; 
+  color: white; 
+  background-color: #7C87C2 ;
+  border: 1px solid white ;
+}
+*,
+/*
+.banksstatscnt {
+
+  width: 100%;
+}
+
+.banksstats ,.banksstatsn {
+  float: left;
+  height: 30px;
+  text-align: center;
+  font-size: 11px;
+  letter-spacing:2px ;
+  font-weight:bold ;
+  margin-top: 0px; 
+  margin-bottom: 0px; 
+  color: white; 
+  background-color: #7C87C2 ;
+  border: 1px solid white ;
+  white-space: normal;
+
+}
+*/
+/*  убрать этот говно код !!!
+
+.banksstatsn {
+
+}
+
+.ststs {
+  background-color: #E5EFFD ;
+  color: gray;
+  font-weight:normal ;
+  height: 15px;
+}
+.banksstats1 {
+  border-left: none ;
+  width: 80px;
+}
+.banksstats2 {
+  width: 100px;
+}
+.banksstats3 {
+  width: 110px;
+}
+.banksstats4 {
+  width: 160px;
+}
+.banksstats5 {
+  width: 150px;
+}
+.banksstats6 {
+  width: 160px;
+  border-right: none ;
+}
+/* вот доселя убрать !!!! убрать этот говно код !!! */
+
+/* //статистика */
+
+
+/* playerlist */
+
+.playerlist {
+  border: 1px solid gray ;
+
+}
+
+.playerlist td {
+  border-left: 1px solid #EEFFDD ;
+  border-right: none ;
+
+}
+/* //playerlist */
+
+/* Список тегов*/
+
+/* //Список тегов*/
+.agenda {
+  width: 100%; 
+  height: 30px;
+  text-align: center; 
+  color: maroon;
+  font-size: 19px;
+  border-bottom: 1px solid #EEFFDD ;
+}
+.agenda a{
+font-size: 19px;
+}
+ 
+/* end админ панель для слотов*/
+
+
+/*==================================================================================================================*/
+
+.stat_table td, .stat_table th { 
+ padding:5px; /* Внутренний отступ */
+ background-color:#478CFB; /* Фон */
+ color:#fff; /* Цвет */
+ font:10pt 'Patua One', normal; /* Размер, семейство шрифта */
+ 
+ }
+
+.stat_table td:hover {
+ background-color:#5493FC; /* Цвет фона */
+ color: gold;
+ }
+.stat_table td {
+ color: #ECE9D8;
+
+}
+ 
+.stat_table {
+ -webkit-border-radius: 10px; /* Округления */
+ -moz-border-radius: 10px;    /* Округления */
+ -ms-border-radius: 10px;    /* Округления */
+ border-radius:10px; /* Округления */
+ display:inline-block; /* Делаем так, что бы блок обтягивал таблицу */
+ overflow:hidden; /* Убираем все, что не поместилось в блок */
+ 
+ }
+
+.stat_table table, .stat_table tr, .stat_table td, .stat_table th {
+ border:1px solid #5C98FC; /* Обводка */
+ border-collapse:collapse; /* Убираем двойные линии */
+ -webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius:10px !important;
+ }
+
+/* кнопко */
+
+.submit {
+	width: 100%;
+	height: 32px;
+	padding: 0 0 2px;
+	font: 16px "Trebuchet MS", Tahoma, Arial, sans-serif;
+	outline: none;
+	position: relative;
+	cursor: pointer;
+	border-radius: 3px;
+	color: #437B7D;
+	text-shadow: 1px 1px #BEF3F5;
+	border: 1px solid #65B3B6;
+	border-top: 1px solid #87D3D5;
+	border-bottom: 1px solid #47989B;
+	box-shadow:
+		inset 0 1px #D4F8F8,
+		inset 1px 0 #B1F1F3,
+		inset -1px 0 #B1F1F3,
+		inset 0 -1px #98ECEE,
+		0 2px #4FA7AA,
+		0 3px #47989B,
+		0 4px 2px rgba(0,0,0,0.4)
+	;
+	background: -moz-linear-gradient(top,  #b7f2f4 0%, #81e8eb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7f2f4), color-stop(100%,#81e8eb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #b7f2f4 0%,#81e8eb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #b7f2f4 0%,#81e8eb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #b7f2f4 0%,#81e8eb 100%); /* IE10+ */
+	background: linear-gradient(top,  #b7f2f4 0%,#81e8eb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7f2f4', endColorstr='#81e8eb',GradientType=0 ); /* IE6-9 */
+	background-color: #9BEDEF;
+}
+.submit::-moz-focus-inner{border:0}
+.submit:hover {
+	border-top: 1px solid #79C5C7;
+	box-shadow:
+		inset 0 1px #B9F2F5,
+		inset 1px 0 #B1F1F3,
+		inset -1px 0 #B1F1F3,
+		inset 0 -1px #B2F1F3,
+		0 2px #4FA7AA,
+		0 3px #47989B,
+		0 4px 2px rgba(0,0,0,0.4)
+	;
+	background: -moz-linear-gradient(top,  #8deaed 0%, #9fedf0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8deaed), color-stop(100%,#9fedf0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #8deaed 0%,#9fedf0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #8deaed 0%,#9fedf0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #8deaed 0%,#9fedf0 100%); /* IE10+ */
+	background: linear-gradient(top,  #8deaed 0%,#9fedf0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8deaed', endColorstr='#9fedf0',GradientType=0 ); /* IE6-9 */
+	background-color: #9BEDEF;
+}
+.submit:active {
+	top: 3px;
+	border: 1px solid #6EBDC0;
+	border-top: 1px solid #58999B;
+	border-bottom: 1px solid #78CFD2;
+	background: #87E9EC;
+	box-shadow: inset 0 1px 2px #4DBABD;
+}
+/* // кнопко */
+
+
+/* Редактируемый список, News, Titles*/
+/*
+   http://colorscheme.ru/#3Z61Tw0w0w0w0 
+*/
+.list_title {
+ color: #ffce40 ;
+ font-size: 19px;
+ background-color: #303285;
+ border-left: 1px solid #303285;
+ width: 100% ; 
+
+}
+.pagings {
+ height: 0px;
+ text-align: center; 
+ color: gold;
+ }
+
+a:hover {
+ text-decoration:underline; 
+ }
+.nPager {
+  width: 100%; 
+  color: #999999 ;
+  height: 20px;
+  margin-top:10px;
+ }
+.nPager a {
+  color: #003153 ;
+  font-size: 19px;
+ }
+.nStrock {
+ text-align: center ;
+ padding: 0; 
+ width: 100%; 
+ height: 40px;
+ margin: 0px auto ;
+ background-color: #A67B00;
+ }
+         
+.nStrock ul{
+ list-style:none;
+ width:100%;
+ height:10px;
+}
+
+.nStrock li{
+ display: inline;
+ text-decoration: none;
+ text-align: center;
+ padding: 0 ;
+ padding-top: 10px;
+ font-size: 14px;
+ color: #ffffff ;
+ }
+.nStrock ul li{
+	border-right:0px solid #333;
+}
+.nStrock_atv {
+ text-align: right ;
+ color: red ;
+}
+.nStrock_Atv {
+ color: #00FF00 ;
+}
+.nStrock_nAtv {
+ color: #FF9999 ;
+}
+.nStrock_Atv input {
+ border:solid 2px green ;
+ line-height:14px;
+ }      
+
+.nStrock_nAtv input{
+ border:solid 3px #FF9999;
+}
+.nBald {
+ color: #999999 ;
+ width: 90%;
+ text-align: center ;
+ margin: 0 auto;
+}
+.nBaldPs  {
+ color: #999999 ;
+ text-align: center ;
+}
+.nBald p{
+ text-align: left ;
+ color: #999999 ;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ margin-left: 20px;
+
+}
+
+.nBaldShort {
+ background:#65A5D1 ;
+} 
+.nBaldImg {
+ background:#FFDB73 ;
+}
+
+.nBaldTxt {
+ background: #65A5D1;
+} 
+
+
+
+.nInter ul{
+ list-style:none;
+ width:100%;
+ height:10px;
+  
+}
+.nInter li{
+ display: inline;
+ text-decoration: none;
+ text-align: center;
+ padding: 0;
+ padding-top: 10px;
+ font-size: 14px;
+ color: #ffffff ;
+}
+
+.nInter {
+ text-align: center ;
+ padding: 0px ; 
+ width: 80%; 
+ height: 40px;
+ margin: 0px auto ;
+ }
+
+.nInterBl {
+ text-align: left ;
+ float: left ;
+ margin-left: -69px ;
+}
+
+.nInterBr {
+ text-align: right ;
+ float: right ;
+}
+
+.nButton {
+ width: 100px; 
+ background: #4E2982 ;
+ color: white;
+ font-size: 9pt; 
+ /*
+ background: navy;
+ */
+}
+.nActionResult {
+color: red ;
+
+}
+/* // Редактируемый список, News, Titles*/
+
+
+.withdpay3, .bankcontainer, .bankset, .lineshr, .statmenu, .ContentCommon, .blockstat, .lineshr1  {
+  width: 910px;
+}
+
+/* делаем таблицу с формой для редактирования панелей */
+.barLayerTable {
+ height: 1000px;
+ background: #008B66; /* Цвет фона */
+ color: #fff; /* Цвет текста */
+ padding: 10px; /* Поля вокруг текста */
+ margin-bottom: -7px; /* Отступ снизу */
+ font-size: 1.1em; /* Размер шрифта */
+}
+.barLayerAbove  {
+ margin-left: 30px; /* Отступ слева */
+ background: #dfe6e1; /* Цвет фона */
+ padding: 10px; /* Поля вокруг текста */
+ border: 1px solid #fff; /* Параметры рамки */
+ border-right: none; /* Убираем линию справа */
+}
+
+.content_over_layer {
+    border:0px;
+    width:100%;
+    min-height:100%;
+    height:auto;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:99;
+}
+
+.formBody{
+ background-color: #eeeeee;
+ color: #333333;
+/* border: solid 1px #dddddd;*/
+ width: 100%;
+ font-size: 14px;
+ padding-bottom: 10px;
+}
+.formHeader{
+/*
+ background-color: #ededed;
+ color: #ebebeb;
+ */
+ height: 18px;
+ font-weight: bold;
+ text-align:center;
+ margin-bottom:2px;
+}
+.formBodyInput{
+ background-color: #ffffff;
+ color: 000000;
+ /*border: solid; */
+ border-width:1px; 
+ border-color: #dddddd;
+ font-size: 13.3333px;
+ margin-left: 10px;
+ margin-right: 10px;
+ height: 16px;
+ width: 450px;
+
+}
+
+.formBody textarea{
+ background-color: #ffffff;
+ color: #000000;
+ border: solid; 
+ border-width:1px; 
+ border-color: #dddddd;
+ margin-left: 10px;
+ margin-right: 10px;
+ height: 98px;
+ width: 367px;
+}
+
+.input-header{
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-top: 2px;
+ margin-bottom: 2px;
+ text-align: right ;
+
+}
+
+
+/*для списока баров */
+
+div.BbarCenter  {  
+ margin: 0px auto;  
+ /*
+ border-top: 1px solid;  
+ border-left: 1px solid;  
+ border-right: 1px solid;  
+ border-top-color: #FF9;  
+ border-left-color: #FF9;  
+ border-right-color: #FF9; 
+  */
+ max-width: 1000px;
+}
+/* паджер */
+.PanelSeparator {
+/*
+ color: #a7e0ff;
+ text-decoration: none; 
+ background: #0973bb;
+ height: 25px ;
+ padding-top:0px; 
+ border: none ;
+ */
+ padding: 0 0PX;
+ margin: 0 0PX;
+ display: inline-block;
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f97d0', endColorstr='#0454a8',GradientType=0 ); /* IE6-9 */
+ background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0f97d0), color-stop(100%,#0454a8)); /* Chrome,Safari4+ */
+ background: -moz-linear-gradient(top,  #0f97d0 0%, #0454a8 100%); /* FF3.6+ */
+ background: -webkit-linear-gradient(top,  #0f97d0 0%,#0454a8 100%); /* Chrome10+,Safari5.1+ */
+ background: linear-gradient(top,  #0f97d0 0%,#0454a8 100%); /* W3C */
+ background: -o-linear-gradient(top,  #0f97d0 0%,#0454a8 100%); /* Opera 11.10+ */
+ background: -ms-linear-gradient(top,  #0f97d0 0%,#0454a8 100%); /* IE10+ */
+ background: gradient(linear, top,  #0f97d0,  #0454a8);
+
+/*
+ background: -webkit-gradient(linear, left top, left bottom, from(#0f97d0), to(#0454a8));
+ background: -moz-linear-gradient(top,  #0f97d0,  #0454a8); 
+ background: linear-gradient( top,  #0f97d0,  #0454a8);
+ */
+ width: 1000px;
+ height: 26px;
+}
+
+.PanelSeparator span {
+ color: #F98000;/* цвет текста внутри панели*/
+ height: 250px;
+ /*border: 1px solid #0454a8; /* Обводка кнопки */
+ behavior: url(css/htc/PIE.htc) ;
+}
+.PanelSeparator span a {
+ /*
+ display: inline-block;
+ overflow: hidden;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f97d0', endColorstr='#0454a8');
+ background: -webkit-gradient(linear, left top, left bottom, from(#0f97d0), to(#0454a8));
+ background: -moz-linear-gradient(top,  #0f97d0,  #0454a8);
+ background: gradient(linear, top,  #0f97d0,  #0454a8);
+ position:relative ;
+ behavior: url(css/htc/PIE.htc) ;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f97d0', endColorstr='#0454a8'); 
+ background: -webkit-gradient(linear, left top, left bottom, from(#0f97d0), to(#0454a8));
+ background: -moz-linear-gradient(top,  #0f97d0,  #0454a8); 
+ background: gradient(linear, top,  #0f97d0,  #0454a8); 
+ */
+ display: inline-block;
+ position:relative ;
+ color: #a7e0ff;
+ text-decoration: none; /* Убираем подчеркивание ссылки */
+ background: #0973bb; /* Цвет фона кнопки по умолчанию */
+ max-width: 100%;
+
+ padding: 0px 10px;	
+ margin: 0px;
+ text-align: center;
+ font-size: 14pt;
+ font-family: arial;
+ -moz-border-radius: 4px;
+ -webkit-border-radius: 4px;
+ khtml-border-radius: 4px;
+ border:1px solid #0454a8; /* Обводка кнопки */
+ behavior: url(css/htc/PIE.htc) ;
+ border-radius:4px;
+}
+.PanelSeparator a:hover {
+ color: #F98000;
+}
+a.selected_ {
+ display: inline-block;
+ position:relative ;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbb319', endColorstr='#ff8000');
+ background: -webkit-gradient(linear, left top, left bottom, from(#fbb319), to(#ff8000)); 
+ background: -moz-linear-gradient(top,  #fbb319,  #ff8000);
+ background: linear-gradient( top,  #fbb319,  #ff8000); 
+}
+.PanelSeparator a.selected {
+ color: #111;
+ background: #fd970b; 
+ max-width: 100%;
+ 
+ -moz-border-radius: 4px;
+ -webkit-border-radius: 4px;
+ khtml-border-radius: 4px;
+ border:1px solid #0454a8; /* Обводка кнопки */
+ behavior: url(css/htc/PIE.htc) ;
+ border-radius:4px;
+}
+
+.PanelSeparator a.selected:hover {
+ background:#F98000;/* #D7FB90; */
+ color: #111;
+/* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F98000', endColorstr='#fbb319');
+ background: -webkit-gradient(linear, left top, left bottom, from(#F98000), to(#fbb319)); 
+ background: -moz-linear-gradient(top, #F98000, #fbb319);
+ background: linear-gradient(top, #F98000, #fbb319); 
+*/
+}
+/* // паджер */
+/* ====== */
+.BbarInner {  
+ border-collapse: collapse;  
+ width: 100%;
+ height:100%;
+ word-break:break-all;
+ /*
+ border-spacing: 0px 0px; 
+ border: 1px solid red;  
+ */ 
+}
+
+.test {
+ border: 1px solid red;  
+}
+.BbarInner td {  
+ height:100%;
+}
+.BbarUndress {
+ max-width: 100px ;
+ background: #CCCCCC;
+ border-right-color: #FF9;  
+/*
+ border: 1px solid red;  
+  */
+}
+.BbarUndress th{
+ height: 40px !important;
+}
+
+.BbarUndress td {  
+ width: 100px ;
+ max-width: 100px ;
+/*
+ border: 1px solid #E5E8DE; 
+  */
+  
+ }
+.BbarWordBreakNo {
+ word-break: normal;
+}
+.BbarWordBreakOn {
+ min-height: 50px;
+ /*width: 480px ;*/
+ word-break:break-all;
+ float: left; 
+ overflow: hidden;
+ min-height: 100%;
+ border-top: 0px solid red !important;
+ padding: 0px 5px;	
+ padding: 10px 10px;	
+ /*
+ display: inline;
+ background: gold !important;
+ border: 0px solid red;  
+ padding: 10px 10px;	
+ margin: 1px 0px;
+ margin-top: 1px;
+ display: block;
+ word-break:normal;
+*/
+}
+.BbarWordBreakPres {
+ word-break:normal;
+
+}
+.BbarEye  {
+ background-image: url(img/eye16d.png) ;
+ background-repeat: no-repeat ;
+ outline: none;
+ text-decoration: none;
+}
+.BbarEye:hover {
+ background-image: url(img/eye16h.png) ;
+ background-repeat: no-repeat ;
+ text-decoration: none;
+}
+.BbarOne td{
+ background: #CCCC99 ;
+ border-bottom: 1px solid #E5E8DE;  
+}
+.bbarTraps td{
+ background: #E5E8DE;
+ border-bottom: 1px solid #CCCC99;  
+
+}
+.BbarLowerPart {
+ text-align: left ;
+ margin-left: 10px;
+}
+
+.Bbarareapole {  
+ width: 100%;
+ /*
+ text-align: right;
+ word-break:break-all;
+ border-collapse: collapse;  
+ border-spacing: 0px 0px; 
+ border: 1px solid red;  
+ */ 
+}
+.Bbarareapole textarea{  
+ width: 95%;
+ height: 100%;
+ min-height: 200px;
+ padding: 0px 5px;	
+}
+.Bbarareapole span{  
+ width: 100%;
+ padding: 0px 20px;	
+}
+
+.BbarSalary:hover a {
+color: #CC0000;
+}
+.BbarAction {
+ cursor: pointer;
+ color: #082567 ;
+ font-size: 11pt;
+ background: #FFDEAD;
+ word-break: normal;
+ border-bottom: 1px solid #E5E8DE;  
+ /*
+ float: none;
+ */
+ 
+}
+.BbarAction:hover {
+ cursor: pointer;
+ color: green ;
+ font-size: 11pt;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F98000', endColorstr='#fbb319');
+ background: -webkit-gradient(linear, left top, left bottom, from(#F98000), to(#fbb319)); 
+ background: -moz-linear-gradient(top, #F98000, #fbb319);
+ background: linear-gradient(top, #F98000, #fbb319); 
+ border-bottom: 1px solid #E5E8DE;  
+}
+
+.BbarActionBus td {
+ color: #082567 ;
+ background: #D08F76 !important;/* #D08F76 #CCBE7C*/
+ word-break: normal;
+ border-bottom: 1px solid #E5E8DE;  
+ /*
+ font-size: 11pt;
+ cursor: pointer;
+ float: none;
+ */
+ 
+}
+.BbarActionBus:hover td {
+ color: green ;
+ font-size: 11pt;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C6C500', endColorstr='#fbb319') !important;
+ background: -webkit-gradient(linear, left top, left bottom, from(#C6C500), to(#fbb319)) !important; 
+ background: -moz-linear-gradient(top, #C6C500, #fbb319) !important;
+ background: linear-gradient(top, #C6C500, #fbb319) !important; 
+ border-bottom: 1px solid #E5E8DE;  
+}
+.BbarWasRecently {
+ color: #111 !important;
+ background: #3FE800 !important;
+}
+.BbarWasRecently a{
+ color: #111 !important;
+ background: #3FE800 !important;
+}
+
+.BbarCashFew {
+ color: #111 !important;
+ background: #FF3333 !important;
+}
+.BbarCashFew a {
+ color: #111 !important;
+ background: #FF3333 !important;
+}
+
+/* // список баров */
+
+/* 904 5770179// делаем таблицу с формой для редактирования панелей */
+
+
+/* верхний слой контент меню */
+div.windowchip {
+ font-size: 22px;
+ width: 100%;
+}
+a.windowclose {
+ position: absolute;
+ top: 1px;
+ right: 1px;
+ background: url(img/close-btn.png) no-repeat 0 0;
+ display: block;
+ height: 13px;
+ width: 14px;
+ text-indent: -9000px;
+ cursor: pointer;
+ text-align: left;
+ /*font-size: 16px;*/
+}
+
+a.windowclose:hover {
+	background-position: 0 bottom;
+}
+
+div.windowbanner {
+ margin-left: -40px; 
+ margin-top: -150px;
+ width: 600px;/* параметры окна*/
+ height: 400px;
+ padding-top: 0px;
+ text-align: right;
+ font-size: 16px;
+ }
+/* кнопки в попапе*/
+/*
+.windowbutt { 
+ border-color: #726320;
+ border-bottom-color: #FFCC00;
+ background-color: #B5A04D; 
+ color: #511700; 
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 19px;
+ }
+div.window {
+ position: absolute;
+ z-index:100 ;
+ left: 50%; 
+ top: 50%;
+ margin-left: -300px; 
+ margin-top: -200px;
+ width: 600px;/* параметры окна* /
+ height: 400px;
+ background-color: #000000;
+ border: 2px solid #FFBB00; 
+ padding: 10px 0px 10px 30px ;/* положение текста в попапе * /
+ text-align: left;
+ font-size: 13px;
+ font-weight: bolder; 
+ color: #E8D051;
+ filter:alpha(opacity=97);
+ -moz-opacity: 1.0;
+ -khtml-opacity: 1.0;
+ opacity: 1.0;
+ 
+}
+*/
+.TopContentMenu_ {
+ behavior: url(css/htc/PIE.htc) ;
+
+}
+div.TopContentMenu  {
+ position: absolute;
+ z-index:2;
+ left: 50%; 
+ top: 50%;
+ margin-left: -315px; 
+ margin-top: -20%;
+ width: 600px;/* параметры окна*/
+ height: 400px;
+ background-color: #02108D;
+ border: 2px solid #FFBB00; 
+ padding: 10px 0px 10px 30px ;/* положение текста в попапе */
+ text-align: center;
+ font-size: 13px;
+ font-weight: bolder; 
+ color: #E8D051;
+ filter:alpha(opacity=85);
+ -moz-opacity: 1.0;
+ -khtml-opacity: 1.0;
+ opacity: 1.0;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ khtml-border-radius: 10px;
+ border:5px solid #0454a8; /* Обводка */
+
+ border-radius:10px;
+}
+/* слить одинаковые параметры */
+#GetSlotID {
+ color:silver ; 
+}
+
+div.TopWinCommon, div.TopWinWithdraw {
+ position: absolute;
+ z-index:2;
+ left: 50%; 
+ top: 50%;
+ margin-left: -315px; 
+ margin-top: -22%;
+ background-color: #02108D;
+ border: 2px solid #FFBB00; 
+ padding: 10px 0px 10px 30px ;/* положение текста в попапе */
+ text-align: center;
+ font-size: 13px;
+ font-weight: bolder; 
+ color: #E8D051;
+ filter:alpha(opacity=85);
+ -moz-opacity: 1.0;
+ -khtml-opacity: 1.0;
+ opacity: 1.0;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ khtml-border-radius: 10px;
+ border:5px solid #0454a8; /* Обводка */
+ border-radius:10px;
+}
+
+div.TopWinCommon {
+ height: 850px;
+ width: 600px;/* параметры окна*/
+}
+div.TopWinWithdraw {
+ height: 100%;
+ width: 600px;/* параметры окна*/
+}
+
+div.TopQuestionnaire {
+ position: absolute;
+ z-index:2;
+ left: 50%; 
+ top: 50%;
+ margin-left: -315px; 
+ margin-top: -22%;
+ width: 600px;/* параметры окна*/
+ height: 600px;
+ background-color: #02108D;
+ border: 2px solid #FFBB00; 
+ padding: 10px 0px 10px 30px ;/* положение текста в попапе */
+ text-align: center;
+ font-size: 13px;
+ font-weight: bolder; 
+ color: #E8D051;
+ filter:alpha(opacity=85);
+ -moz-opacity: 1.0;
+ -khtml-opacity: 1.0;
+ opacity: 1.0;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ khtml-border-radius: 10px;
+ border:5px solid #0454a8; /* Обводка */
+
+ border-radius:10px;
+}
+
+
+.WithdrvTextOne {
+ position: relative;
+ text-align: right ;
+ border: 0px solid red ;
+ width: 300px;/* параметры окна*/
+ margin-top: 20px;
+ /*
+ margin-top: 20px;
+ padding-left: 0px;
+ */
+ float: left ;
+ 
+}
+.WithdrvTextAct {
+ position: relative;
+ text-align: left ;
+ margin-top: 20px;
+ margin-left: 12px;
+ padding-left: 20px;
+ float: left ;
+ width:200px;/* размеры  */
+ border: 0px solid #A5ACB2;
+ height:20px;
+
+}
+.WithdrvTextAct:hover {
+ color: silver;
+ cursor: pointer;
+}
+
+.WithdrvTextAct input{
+ text-align: left ;
+ padding-left: 5px;
+ width:207px;/* размеры инпутов */
+ height:15px;
+ border: 0px solid red;
+}
+.WithdrvTextAct textarea {
+ width:200px;/* размеры инпутов */
+ height:100px;
+ border: 0px solid red;
+ }
+.TopWithdrawBtn {
+ position: relative;
+ margin-left: 0px; 
+ margin-top: 0px;
+
+
+
+}
+.TopSeparator {
+ clear: both ;
+ padding-bottom: 100px;
+ border: 0px solid red;
+}
+ 
+.BtmTextOwn{
+ margin-top: 20px;
+ margin-left: 12px;
+ padding-left: 20px;
+ color: magenta ;
+}
+
+/* ============================================================ кнопки */
+.TopWithdrawBtn {
+ height: 70px;
+}
+.TopWithdrawBtn ul {
+ font-family: Georgia;
+ list-style-type: none;
+ font-size: 19px;
+ color: #fff;
+ height: 60px;
+ width: 580px;/* ширина блока */
+ margin-left: -25px;
+ /*
+ margin: 0 auto;
+ padding-top: 0px;
+ text-align: left ;
+ */
+ border: 0px solid red;
+ }
+.TopWithdrawBtn ul li {
+ float: left;
+ padding-left: 10px;
+ text-align: center;
+ }
+.TopWithdrawBtn ul li button {
+ float: left;
+ display: block;
+ background: #0094D6;
+ text-decoration: none;
+ color: #fff;
+ position: relative;
+ }
+.TopWithdrawBtn ul li button:hover {
+ background: #FF7700;
+ /*
+ z-index: 0;
+ margin: 0 -10px;
+ top: -10px;
+ */
+ opacity: 0.7;
+ filter: alpha(opacity=70);
+ -moz-opacity: 0.7;
+ -khtml-opacity: 0.7;
+ }
+.TopWithdrawBtn ul li button span {
+ float: left;
+ display: block;
+ padding: 10px 0px;
+ text-decoration: none;
+ color: #fff;
+ width: 100px;
+ cursor: pointer;
+ }
+ /*
+.TopWithdrawBtn ul li button:hover span {
+ width: 120px;
+ padding: 20px 0;
+ }
+*/
+/* /////////////////////////////////////////////////////////////кнопки */
+
+/* стили для анкеты */
+
+.NormalTextCont {
+ position: relative;
+ text-align: right ;
+ border: 0px solid red ;
+
+ width: 85%;/* параметры окна*/
+ margin-top: 20px;
+ padding-left: 0px;
+ float: left ;
+} 
+.NormalTextCont input{
+ position: relative;
+ text-align: left ;
+ /* width: 100%;*/
+ margin-left: 12px;
+ padding-left: 20px;
+
+ width:234px;/* размеры инпутов */
+ height:15px;
+ border: 0px solid #A5ACB2;
+}
+.NormalTextMini {
+ position: relative;
+ text-align: right ;
+ border: 0px solid red ;
+
+ width: 85%;/* параметры окна*/
+ margin-top: 20px;
+ padding-right: 0px;
+ float: left ;
+}
+
+.NormalTextMini input{
+ position: relative;
+ text-align: left ;
+ margin-left: 9px;
+ padding-left: 0px;
+/*
+ width: 10%;/* параметры окна* /
+ border: 1px solid green ;
+*/
+ width:30px; 
+ height:15px;
+ border: 1px solid #A5ACB2;
+}
+/*
+input#month ,input#day {
+ width:30px; 
+ height:15px;
+ border: 1px solid #A5ACB2;
+}
+input#year {
+ width:50px;
+ height:15px;
+ border: 1px solid #A5ACB2;
+}
+.NormalTextSmall span {
+ width:30px; 
+}
+*/
+
+.bold_text {
+ color: #CC9900;
+ border: 0px solid #A5ACB2;
+ clear: both;
+}
+ 
+.TopContentInner {
+ /*
+ position: relative;
+ */
+ float: left ;
+ text-align: left ;
+ width: 190px;/* параметры окна*/
+ border: 0px solid red ;
+ margin-top: 15px;
+} 
+
+.TopContentOur {
+ margin-top: 15px;
+ float: none ;
+ border: 0px solid green ;
+ position: relative;
+ width: 90%;/* параметры окна*/
+
+ /*
+ width: 190px;/* параметры окна* /
+ text-align: right ;
+ */
+}
+
+.TopContentBar {
+ position: relative;
+ text-align: left ;
+ width: 93%;/* параметры окна*/
+ border: 0px solid red ;
+} 
+
+.TopContenRadio {
+ width: 16px;
+ height: 16px;
+ display: inline-block;
+ cursor: pointer;
+ /*background: url(paht-to/radio.png);*/
+ background: #02108D;
+ overflow: hidden;
+ border: 0px solid red ;
+}
+.TopContenChecked {
+ background-position: 0 -16px;
+}
+.TopContenRadio input {
+ margin-left: -17px;
+}
+.TopContentBtn {
+ margin-left:10px; 
+ margin-right: 165px; 
+ margin-bottom: 10px; 
+ margin-top: 4px; 
+ text-align: right;
+ border: 0px solid red ;
+}
+.FormButton {
+ margin-top: 6px;
+}
+
+.TopContentDdr {
+ margin-left:10px; 
+ margin-right: 165px; 
+ margin-bottom: 10px; 
+ margin-top: 14px; 
+ text-align: right;
+ border: 0px solid red ;
+}
+.TopContentChex1 {
+ width: 190px;
+ text-align: left;
+ border: 0px solid red ;
+ float: left;
+}
+.TopContentChex2 {
+ width: 190px;
+ text-align: left;
+ border: 0px solid red ;
+ float: left;
+}
+.TopContentChex3 {
+ width: 190px;
+ text-align: left;
+ border: 0px solid red ;
+ float: left;
+}
+/* // верхний слой контент меню */
+/* попап */
+.AllertWin {
+ position: fixed;
+ z-index:5;
+ /**/
+ padding: 10px 0px 10px 30px ;/* положение текста в попапе */
+ left: 50%; 
+ top: 65%;
+ margin-left: -315px; 
+ margin-top: -22%;/**/
+ /*padding: auto; */
+ width: 600px;/* параметры окна*/
+ height: 100px;
+ background-color: #02108D;
+ border: 2px solid #FFBB00; 
+ text-align: center;
+ font-size: 13px;
+ font-weight: bolder; 
+ color: #E8D051;
+ 
+ filter:alpha(opacity=85);
+ -moz-opacity: 0.85;
+ -khtml-opacity: 0.85;
+ opacity: 0.80;
+ -moz-border-radius: 10px;
+ -webkit-border-radius: 10px;
+ khtml-border-radius: 10px;
+ border:5px solid #0454a8; /* Обводка */
+
+ border-radius:10px;
+ 
+}
+
+.OutcomeBack {
+ position: fixed;
+/*
+ position: relative;
+ */
+ z-index:2;
+ top:0;
+ left:0;
+ color: red;
+ width: 100%;
+ height: 100%;
+ background-color: #CCCCCC;
+ filter:alpha(opacity=15);
+ -moz-opacity: 0.15;
+ -khtml-opacity: 0.15;
+ opacity: 0.15;
+}
+#Outcome{
+ 
+}
+#AllertInformant {
+ margin: auto;
+ padding:35px; 
+}
+
+.AllertWinErrorw {
+color: red;
+}
+.TopWithdrawPay {
+
+}
+
+.imgadditionbon2 {
+ position: absolute ;
+ float: left;
+ margin: -15px 0px 0px 820px;
+
+}
+.imgadditionbon1 {
+ position: absolute ;
+ float: left;
+ margin: 15px 0px 0px 820px;
+}
+
+td.ewarning {
+ background-color:red ; 
+}
+.ewarning a {
+ color: gold ;
+}

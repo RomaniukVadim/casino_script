@@ -1,0 +1,183 @@
+body {
+	behavior:url("/css/csshover.htc");
+}
+
+#nav, #nav ul {
+	float: left;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size:10px;
+}
+
+#nav a span {
+		visibility:hidden;
+}
+#nav a {
+	
+	margin-top: 12px;
+    text-decoration:none;
+    display:block;
+	height: 36px;
+}
+
+
+#nav li {
+
+	list-style: none;
+	margin:0;
+	padding:0;
+    position: relative;
+    float:left;
+    display:block;
+    height: auto;
+}
+
+#nav li ul ul, #nav li ul ul ul{
+    /*display:none;
+   
+	*/
+	margin-left: 173px;
+	position:relative;
+	margin-top: -29px;
+	border-top-width: 1px;
+		
+
+}
+/*margin-top:-1.8em;*/
+#nav li ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	font-weight: normal;
+	line-height: 1.8;
+	border-top-width: 0px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-color: #273d08;
+	border-style:solid;
+	z-index:99999;
+}
+
+#nav li li {
+	
+	height: 32px;
+	
+}
+
+#nav li ul a {
+	
+	width:110px;
+	
+}
+
+
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {
+	left: -999em;
+	display:none;
+}
+
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul {
+	left: 0;
+	display:block;
+	
+}
+
+.menu_more {
+	
+	top: 11px;
+	margin-right: 15px;
+	position:absolute;
+	right:0px;
+
+}
+
+#content {
+	clear: left;
+}
+
+#nav .menuRootHome,
+#nav .menuRootCashier,
+#nav .menuRootPromotions,
+#nav .menuRootTournaments,
+#nav .menuRootRewards,
+#nav .menuRootPlay,
+#nav .menuRootHelp,
+#nav .menuRootCasino{
+    height:56px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#nav .menuRootPromotions:hover,
+#nav .menuRootCasino:hover{
+    height:56px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+
+#nav .menuRootPromotions {
+	background-image: url('/image/nl_NL/promotions.gif');
+	width: 111px;
+}
+
+
+#nav .menuRootPromotions:hover {
+	background-image: url('/image/nl_NL/promotions_on.gif');
+	width: 111px;
+}
+
+
+.topNav:hover{
+	font-weight: bold;
+	cursor:pointer;
+}
+
+
+
+.menuItem {
+	background-color:#a8ac3b;
+	width: 173px;
+	color:#ffffff;
+	text-align: left;
+	background-repeat: repeat-x top;
+	background-position: left top;
+	padding:0px; !important
+	
+	
+}
+
+#nav ul li.menuItem:hover, #nav ul li.menuItem a:hover{
+	background-color:#c4171b;
+	width: 173px;
+	height: 32px; !important
+	background-repeat: no-repeat;
+	background-position: left top;
+
+}
+#nav li ul a span {
+	margin-left: 15px;
+	visibility:visible;
+}
+
+#nav li ul a {
+	
+	margin-top:0px;
+	height: 32px;
+	font-weight: bold;
+	color:#ffffff;
+	font-size: 11px;
+	width: 173px;
+	line-height:30px;
+	
+}
+.menuBottom {
+	background-image: url('/images/bg_menu.gif');	/* deze image eventueel veranderen in een achtergrondkleur of andere image */
+}
+
+.menuRight {
+	background-image: url('/images/bg_menu.gif');	/* deze image eventueel veranderen in een achtergrondkleur of andere image */
+}
+

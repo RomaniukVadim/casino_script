@@ -1,0 +1,58 @@
+<?php
+  define("CASINOENGINE", true);
+  session_start();
+  include_once("../../../engine/config/config.php");
+  include_once( "../../../modules/partner/partner.php");
+  error_reporting(0);
+  $module_interkassa_query = @mysql_fetch_array(@mysql_query("select * from pay_modules_interkassa"));
+  $ik_shop_id              = $_POST['ik_shop_id'];
+  $ik_payment_id           = floatval($_POST['ik_payment_id']);
+  $ik_paysystem_alias      = $_POST['ik_paysystem_alias'];
+  $ik_baggage_fields       = $_POST['ik_baggage_fields'];
+  $ik_payment_state        = $_POST['ik_payment_state'];
+  $ik_trans_id             = $_POST['ik_trans_id'];
+  $ik_currency_exch        = $_POST['ik_currency_exch'];
+  $ik_fees_payer           = $_POST['ik_fees_payer'];
+  $ik_sign_hash            = $_POST['ik_sign_hash'];
+  $ik_payment_state        = $_POST['ik_payment_state'];
+  $ik_shop_id              = $_POST['ik_shop_id'];
+  $pay_query               = @mysql_fetch_array(@mysql_query("select * from pay_deposits where id ='" . $ik_payment_id . "'"));
+  $ik_payment_amount       = $pay_query['amount'];
+  $ik_key                  = $module_interkassa_query['ik_key'];
+  $sing_hash_str           = $ik_shop_id . ":" . $ik_payment_amount . ":" . $ik_payment_id . ":" . $ik_paysystem_alias . ":" . $ik_baggage_fields . ":" . $ik_payment_state . ":" . $ik_trans_id . ":" . $ik_currency_exch . ":" . $ik_fees_payer . ":" . $ik_key;
+  $sign_hash               = strtoupper(md5($sing_hash_str));
+  if ($_REQUEST['ik_sign_hash'] === $sign_hash && $_REQUEST['ik_payment_state'] === "success") {
+      $referer = $_SERVER['REMOTE_ADDR'];
+      @mysql_query("update pay_deposits set status = '1', referer = '" . $referer . "' where id ='" . $ik_payment_id . "'");
+      $pay_query = @mysql_fetch_array(@mysql_query("select * from pay_deposits where id ='" . $ik_payment_id . "'"));
+      payToReferer($pay_query['user'], $ik_payment_amount);
+      @mysql_query("update clients set cash=cash+'" . $ik_payment_amount . "' where login='" . $pay_query['user'] . "'");
+      @mysql_query("update clients set cashin=cashin+'" . $ik_payment_amount . "' where login='" . $pay_query['user'] . "'");
+      $config_query  = @mysql_fetch_array(@mysql_query("select * from casino_settings"));
+      $site          = $config_query['siteadress'];
+      $email_support = $config_query['emailcasino'];
+      $priority      = 3;
+      $format        = "text/html";
+      $msg           = "";
+      $msg .= "Здравствуйте, Администратор,<br>";
+      $msg .= "Пользователь:" . $pay_query['user'] . "<br><br>";
+      $msg .= "Пополнил игровой счёт на: " . $pay_query['amount'] . " Кредитов<br>";
+      $msg .= "---------------------<br>";
+      $msg .= "С Наилучшими Пожеланиями,<br>";
+      $msg .= "Робот Интернет-казино " . $site . "<br>";
+      @mail($email_support, "Пополнение счёта на сумму: " . $pay_query['amount'] . " Кредитов", $msg, "From: {$email_support}\nContent-Type:{$format};charset=windows-1251\nMIME-Version: 1.0\nContent-Transfer-Encoding: 8bit\nX-Priority: {$priority}\nX-Mailer:CasinoEngine mail v1.0");
+      $config_query = @mysql_fetch_array(@mysql_query("select * from casino_settings"));
+      $site         = $config_query['siteadress'];
+      $user_query   = @mysql_fetch_array(@mysql_query("select * from clients where login='" . $pay_query['user'] . "'"));
+      $priority     = 3;
+      $format       = "text/html";
+      $msg          = "";
+      $msg .= "Здравствуйте, " . $user_query['login'] . ",<br>";
+      $msg .= "<br>";
+      $msg .= "Вы Пополнил игровой счёт на: " . $pay_query['amount'] . " Кредитов<br>";
+      $msg .= "---------------------<br>";
+      $msg .= "С Наилучшими Пожеланиями,<br>";
+      $msg .= "Робот Интернет-казино " . $site . "<br>";
+      @mail($user_query['email'], "Пополнение счёта на сумму: " . $pay_query['amount'] . " Кредитов", $msg, "From: {$email_support}\nContent-Type:{$format};charset=windows-1251\nMIME-Version: 1.0\nContent-Transfer-Encoding: 8bit\nX-Priority: {$priority}\nX-Mailer:CasinoEngine mail v1.0");
+  }
+?>

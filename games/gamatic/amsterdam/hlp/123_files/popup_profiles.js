@@ -1,0 +1,64 @@
+var profiles =
+{
+	gamePopup:
+	{
+		height:600,
+		width:800,
+		center:1,
+		createnew:0,
+        scrollbars:0
+	},
+	slotPopup:
+	{
+		height:600,
+		width:856,
+		center:1,
+		createnew:0,
+        scrollbars:0
+	},
+	widePopup:
+	{
+		height:600,
+		width:900,
+		center:1,
+		createnew:0,
+        scrollbars:0
+	},
+	highPopup:
+	{
+		height:640,
+		width:800,
+		center:1,
+		createnew:0,
+        scrollbars:0
+	},
+	mediumPopup:
+	{
+		height:635,
+		width:800,
+		center:1,
+		createnew:0,
+        scrollbars:0
+	},
+	livePopup:
+	{
+		height:673,
+		width:990,
+		center:1,
+		createnew:0,
+        scrollbars:0
+	},
+	highwidePopup:
+	{
+		height:640,
+		width:1066,
+		center:1,
+		createnew:0,
+	scrollbars:0
+	}
+};
+
+$(function()
+{
+	$(".popupwindow").popupwindow(profiles);
+});

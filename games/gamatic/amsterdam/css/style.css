@@ -1,0 +1,1582 @@
+body{
+    background-color:#FFF; /*#003353*/
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000;
+    height:100%;
+    font-size: 11pt;
+    line-height: 15pt;
+    margin: 8px 0 0 0;
+/*    background:url("/images/nl_NL/bg_oogstmaand.jpg") no-repeat top center;*/
+    background:url("/images/bg_oogstmaand_v4.jpg") no-repeat top center; /*SINTERKLAAS ACHTERGROND*/
+}
+a:active, a:focus{
+    outline-style: none;
+    -moz-outline-style:none;
+}
+#center{
+}
+img {
+    border:0px;
+	padding: 0;
+	margin: 0;
+}
+#layerad {
+/*
+    left: 564px!important;
+    top: 140px!important;
+*/
+    height: 454px!important;
+    left: 70%!important;
+    margin-left: -50%!important;
+    position: absolute!important;
+    top: 100%!important;
+    width: 550px!important;
+    z-index: 999!important;
+}
+.floatleft{
+    float: left!important;
+}
+.floatright{
+    float: right!important;
+}
+.h4bonus {
+    line-height: 0px;
+}
+.bonus {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bonustable {
+    width: 600px;
+}
+.bonustable th{
+	text-align: left;
+}
+.left_acties {
+    background-color:#FFF;
+    border-left:1px solid;
+    border-right:1px solid;
+    color:#000000;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:11px;
+    line-height:12pt;
+    overflow:hidden;
+    padding:10px 5px 10px 15px;
+    width:255px;
+    text-align: left;
+}
+.left_acies p a {
+    font-size: 11px;
+    font-weight: bold;
+}
+.btn {
+    background: url('/images/nl_NL/b-versturen.gif');
+    border: 0px;
+    height: 30px;
+    width: 85px;
+}
+.btn_afbreken {
+    background: url('/images/nl_NL/b-afbreken.gif');
+    border: 0px;
+    height: 30px;
+    width: 85px;
+}
+#balance{
+    margin-left:0;
+    margin-top:4px;
+    width:232px;
+	color: #ffffff;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+}
+#standard_error {
+    border-width:1px;
+    color:#F00;
+    font-weight:bold;
+    padding:10px;
+    text-align:left;
+    width:100%;
+}
+.vipclub{
+    background-image: url('/images/vipclub_cardman.jpg');
+    background-repeat:no-repeat;
+    float:left;
+}
+img {
+    border: 0px solid;
+}
+
+#logo{
+    background: url("/images/logo.jpg") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 100px;
+    margin-left: 10px;
+    padding-left: 9px;
+    padding-top: 3px;
+    width: 401px;
+}
+a:link{
+    text-decoration:underline;
+    color:#000;
+}
+a:hover{
+    text-decoration:none;
+    color:#000;
+}
+a:visited{
+    text-decoration:none;
+    color:#000;
+}
+a:active{
+    text-decoration:none;
+    color:#000;
+}
+a footer_links:link{
+    text-decoration:none;
+    color:#000;
+}
+.space21{
+    float:left;
+    width:10px; /*21px*/
+}
+.space20{
+    height:4px;
+}
+.space9{
+    float:left;
+    width:9px;
+}
+/* page parts*/
+#main{
+    width:923px;
+    margin-bottom:60px;
+}
+#header{
+    background-color:#FFF;
+    border:1px solid #000000;
+    -moz-border-radius: 4px 4px 4px 4px;
+    height:109px;
+	position: relative; /*for layerad*/
+}
+#content{
+    background-color:#FFF;
+    width:923px;
+    border-style:solid;
+    border-color:#000;
+    border-width:1px;
+    -moz-border-radius: 4px 4px 0px 0px;
+    display:block;
+    height:auto;
+    float:left;
+}
+.footer_text{
+    color:#000000;
+    font-size:10px;
+    line-height:16px;
+    margin:0;
+    padding-top:3px;
+}
+#footer{
+    background-color:#FFF;
+    border-left:1px solid;
+    border-right:1px solid;
+    border-bottom:1px solid;
+    background-repeat:no-repeat;
+    -moz-border-radius: 0px 0px 4px 4px;
+    width:923px;
+    clear:both;
+}
+#leftbar{
+    padding: 7px 20px 0 25px;
+    float:left;
+    display: block;
+    width:250px;
+    height:100%;
+}
+#page{
+    padding-right:25px;
+    padding-bottom:23px;
+    float:right;
+    display:block;
+    width:573px;
+    height:auto;
+    margin-top: 23px;
+}
+#home_page{
+    padding-right:25px;
+    padding-bottom:23px;
+    float:right;
+    display:block;
+    width:573px;
+    height:auto;
+    
+}
+#banner_container{
+	float: right;
+	display: block;
+	width: 873px;
+	height: 205px;
+    margin-right: 25px;
+}
+.banner_top_new{
+	float: right;
+	display: block;
+	width: 575px;
+	height: 215px;
+	text-indent: -9999px;
+}
+.banner_top{
+	float: right;
+	display: block;
+	width: 873px;
+	height: 215px;
+	text-indent: -9999px;
+}
+.snow{
+    background: url("/images/snow.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 94px;
+    margin-top: 117px;
+    width: 187px;
+}
+.banner_top_wide_mobilesite{
+    background:url(/images/en_EN/banner_top_mobilewebsite.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_pizzaprize{
+    background:url(/images/en_EN/banner_top_pizzaprize.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_piggybank{
+    background:url(/images/en_EN/banner_top_piggybank.png) no-repeat 0 0; 
+}
+.banner_top_wide_foxinwins{
+    background:url(/images/en_EN/banner_top_foxinwins.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_wonderwoman{
+    background:url(/images/en_EN/banner_top_wonderwoman.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_merlinsmillions{
+    background:url(/images/en_EN/banner_top_merlinsmillions.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_roulette{
+    background:url(/images/en_EN/banner_top_roulette.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_goldraider{
+    background:url(/images/en_EN/banner_top_goldraider.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_slotoffortunejackpot{
+    background:url(/images/en_EN/banner_top_slotoffortunejackpot.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_greenlantern{
+    background:url(/images/en_EN/banner_top_greenlantern.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_frogroyale{
+    background:url(/images/en_EN/banner_top_frogroyale.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_drmagoojackpot{
+    background:url(/images/en_EN/banner_top_drmagoojackpot.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_superman{
+    background:url(/images/en_EN/banner_top_superman.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_flash{
+    background:url(/images/en_EN/banner_top_flash.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_liveroulette{
+    background:url(/images/en_EN/banner_top_liveroulette_freespins.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_blackjack{
+    background:url(/images/en_EN/banner_top_blackjack_freespins.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_spartania{
+    background:url(/images/en_EN/banner_top_spartania_freespins.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_concerttickets{
+    background:url(/images/en_EN/banner_top_concerttickets.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_onemillionants{
+    background:url(/images/en_EN/banner_top_onemillionants.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_livetablegames{
+    background:url(/images/en_EN/amc_top_livetablegames.jpg) no-repeat 0 0; 
+}
+.banner_top_wide_ogsgames{
+    background:url(/images/en_EN/amc_top_ogsgames.png) no-repeat 0 0; 
+}
+.banner_top_wide_beautyandthenerd{
+    background:url(/images/en_EN/amc_top_beautyandthenerd.jpg) no-repeat 0 0; 
+}
+.banner_top_robbers{
+    background:url(/images/en_EN/banner_top_robbers.jpg) no-repeat 0 0;
+}
+.banner_top_beautyandthenerd{
+    background:url(/images/en_EN/banner_top_beautyandthenerd.jpg) no-repeat 0 0;
+}
+.banner_top_abracadabra{
+    background:url(/images/en_EN/banner_top_abracadabra.jpg) no-repeat 0 0;
+}
+.banner_top_incash{
+    background:url(/images/en_EN/banner_top_incash.jpg) no-repeat 0 0;
+}
+.banner_top_billiondollarmovie{
+    background:url(/images/en_EN/banner_top_billiondollarmovie_freespins.jpg) no-repeat 0 0;
+}
+.banner_top_autumnpromotion{
+    background:url(/images/en_EN/banner_top_autumnpromotion.jpg) no-repeat 0 0;
+}
+.banner_top_livecasino{
+    background:url(/images/nl_NL/banner_top_livecasino.jpg) no-repeat 0 0;
+}
+.banner_top_bugs{
+    background:url(/images/en_EN/gamebanner_top_bugs.jpg) no-repeat 0 0;
+}
+.banner_top_carscash{
+    background:url(/images/en_EN/gamebanner_top_carscash.jpg) no-repeat 0 0;
+}
+.banner_top_magicalforest{
+    background:url(/images/en_EN/gamebanner_top_magicalforest.jpg) no-repeat 0 0;
+}
+.banner_top_bingo{
+    background:url(/images/en_EN/gamebanner_top_bingo.jpg) no-repeat 0 0;
+}
+.banner_top_goldraider{
+    background:url(/images/en_EN/gamebanner_top_goldraider.jpg) no-repeat 0 0;
+}
+.banner_top_strikegoldwinner{
+    background:url(/images/banner_top_strikegold_winnaar.jpg) no-repeat 0 0;
+    margin-left: 3px;
+}
+.banner_top_vakantiegeld_actie{
+    background:url(/images/gamebanner_top_vakantiegeld_actie.jpg) no-repeat 0 0;
+}
+.banner_top_mrgood{
+    background:url(/images/en_EN/gamebanner_top_mrgood.jpg) no-repeat 0 0;
+}
+.banner_top_dinosrhino{
+    background:url(/images/gamebanner_top_dinosrhino.jpg) no-repeat 0 0;
+}
+.banner_top_pharaohstomb{
+    background:url(/images/gamebanner_top_pharaohstomb.jpg) no-repeat 0 0;
+}
+.banner_top_zoozillionaire{
+    background:url(/images/gamebanner_top_zoozillionaire.jpg) no-repeat 0 0;
+}
+.banner_top_fortunefarm{
+    background:url(/images/gamebanner_top_fortunefarm.jpg) no-repeat 0 0;
+}
+.banner_top_kingscashtle{
+    background:url(/images/gamebanner_top_kingscashtle.jpg) no-repeat 0 0;
+}
+.banner_top_isleoffortune{
+    background:url(/images/gamebanner_top_isleoffortune.jpg) no-repeat 0 0;
+}
+.banner_top_atlantis{
+    background:url(/images/gamebanner_top_atlantis.jpg) no-repeat 0 0;
+}
+.banner_top_treasuretomb{
+    background:url(/images/gamebanner_top_treasuretomb.jpg) no-repeat 0 0;
+}
+.banner_top_amsterdammasterplan{
+    background:url(/images/gamebanner_top_amsterdammasterplan.jpg) no-repeat 0 0;
+}
+.banner_top_chinesenewyear{
+    background:url(/images/gamebanner_top_chinesenewyear.jpg) no-repeat 0 0;
+}
+.banner_top_edsventure{
+    background:url(/images/gamebanner_top_edsventure.jpg) no-repeat 0 0;
+}
+.banner_top_slotoffortune{
+    background:url(/images/gamebanner_top_slotoffortune.jpg) no-repeat 0 0;
+}
+.banner_top_secrettreasure{
+    background:url(/images/gamebanner_top_secrettreasure.jpg) no-repeat 0 0;
+}
+.banner_top_spacekeno{
+    background:url(/images/gamebanner_top_spacekeno.jpg) no-repeat 0 0;
+}
+.banner_top_cashhunter{
+    background:url(/images/gamebanner_top_cashhunter.jpg) no-repeat 0 0;
+}
+.banner_top_losttreasures{
+    background:url(/images/gamebanner_top_losttreasures.jpg) no-repeat 0 0;
+}
+.banner_top_majormoolah{
+	background:url(/images/gamebanner_top_majormoolah.jpg) no-repeat 0 0;
+}
+.banner_top_keno3d{
+	background:url(/images/gamebanner_top_keno3d.jpg) no-repeat 0 0;
+}
+.banner_top_luckyheroes{
+	background:url(/images/gamebanner_top_luckyheroes.jpg) no-repeat 0 0;
+}
+.banner_top_nomercy{
+	background:url(/images/gamebanner_top_nomercy.jpg) no-repeat 0 0;
+}
+.banner_top_baccarat{
+	background:url(/images/gamebanner_top_baccarat.jpg) no-repeat 0 0;
+}
+.banner_top_liveblackjack{
+	background:url(/images/gamebanner_top_liveblackjack.jpg) no-repeat 0 0;
+}
+.banner_top_blackjack{
+	background:url(/images/banner_blackjackpot.jpg) no-repeat 0 0;
+}
+.banner_top_jackstrex{
+	background:url(/images/banner_jt.jpg) no-repeat 0 0;
+}
+.banner_top_castlemania{
+	background:url(/images/banner_cm.jpg) no-repeat 0 0;
+}
+.banner_top_magoo{
+	background:url(/images/banner_dm_hot.jpg) no-repeat 0 0;
+}
+.banner_top_funkychicken{
+	background:url(/images/banner_fu.jpg) no-repeat 0 0;
+}
+.banner_top_mcmurphys{
+	background:url(/images/banner_mm_hot.jpg) no-repeat 0 0;
+}
+
+.nl_NL_banner_top{ 
+	background:url(/images/nl_NL_banners_top.png) no-repeat 0 0;
+}
+.nl_NL_banner_top_new{ 
+	background:url(/images/nl_NL_banners_top_new.png) no-repeat 0 0;
+}
+/*gamebanner_top_funkychicken.png*/
+#promo_topleft{
+    background: url(/images/en_EN/promo_piggybank.jpg); 
+	margin: 4px 0 20px -30px;
+	float: left;
+	display: block;
+    height: 200px; /* 187px*/
+    width: 187px;
+   
+}
+#promo_topmiddle{
+    background: url(/images/en_EN/amc_promo_slotoffortune.jpg);
+	margin: 4px 0 20px 0px;
+	float: left;
+	display: block;
+    height: 187px;
+    width: 187px;
+}
+#promo_topright{
+    float: right;
+	margin: 4px -34px 20px 0;
+	display: block;
+    height: 187px;
+    width: 187px;
+}
+#promo_centerleft{
+    background: url(/images/en_EN/amc_promo_frogroyale.jpg);
+	margin: 14px 0 -11px -30px;
+	float: left;
+	display: block;
+    height: 187px;
+    width: 187px;
+}
+#promo_centermiddle{
+    background: url(/images/en_EN/amc_promo_goldraider.jpg);
+    margin: 14px 0 -11px 0px;
+	float: left;
+	display: block;
+    height: 187px;
+    width: 187px;
+}
+#promo_centerright{
+    background: url(/images/en_EN/promo_onemillionants.jpg);
+	margin: 14px -34px -11px 0;
+	float: right;
+	display: block;
+    height: 187px;
+    width: 187px;
+}
+#promo_bottomleft{
+    background: url(/images/en_EN/amc_promo_abracadabra.jpg);
+	margin: 14px 0 20px -30px;
+	float: left;
+	display: block;
+    height: 187px;
+    width: 187px;
+}
+#promo_bottommiddle{
+    background: url(/images/en_EN/amc_promo_drmagoo.jpg);
+	margin: 14px 0 20px 0px;
+	float: left;
+	display: block;
+    height: 187px;
+    width: 187px;
+}
+#promo_bottomright{
+    background: url(/images/en_EN/amc_promo_beautyandthenerd.jpg);
+	margin: 14px -34px 20px 0;
+	float: right;
+	display: block;
+    height: 187px;
+    width: 187px;
+}
+/* header */
+#logo{
+    float:left;
+    padding-left: 9px;
+    padding-top:3px;
+}
+#form_text_container{
+	float: left;
+	text-align: left;
+	margin: 14px 0 0 2px;
+	line-height: 19px;
+	height: 36px;
+}
+#funplayerlivechat{
+	float: right;
+	height: 34px;
+	margin: 15px 24px 0 0;
+}
+.inlog_form_text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+#inlog_form{
+    float:left;
+    display: block;
+	margin-top: 6px;
+}
+.inlog_form_buttons{
+    float:left;
+}
+#inlog_form_container{
+	display:block;
+	float:left;
+	margin-right:10px;
+	text-align:left;
+	width:490px;
+	font-size: 10px;
+}
+.inlog_form_link{
+    font-size:10px;
+    text-transform: uppercase;
+    /*font-weight:200;*/
+}
+.inlog_input{
+    background-image: url('/images/bg_logininput.gif');
+    background-repeat:no-repeat;
+    width:160px;
+    height:24px;
+    padding-left:12px;
+    padding-top:7px;
+    padding-right:26px;
+    color:#FFF;
+    border:0px;
+}
+.inlog_input:focus {
+    outline: none;
+}
+.inlog_submit{
+    background: url(/images/bg_buttonlogin.gif) no-repeat;
+    width:82px;
+    height:30px;
+    border:0px;
+    
+}
+#menu{
+    background-image:url('/images/bg_menu.gif');
+    width:100%;
+	height: 49px;
+   /* padding: 12px 0;*/
+	margin-bottom:12px;
+	z-index:20;
+}
+.button_menu{
+    height: 37px;
+    display: block;
+    text-indent: -9999px;
+}
+a.button_menu:hover{
+    background-position: 0 -37px;
+}
+.button_home{
+    background-image:url('/images/en_EN/menu_home.jpg');
+    width: 78px;
+}
+.button_playnow{
+    background-image:url('/images/en_EN/menu_playnow.jpg');
+    width: 102px;
+}
+.button_cashier{
+    background-image:url('/images/en_EN/menu_cashier.jpg');
+    width: 86px;
+}
+.button_promotions{
+    background-image:url('/images/en_EN/menu_promotions.jpg');
+    width: 116px;
+}
+.button_safety{
+    background-image:url('/images/menu_safety.jpg');
+    width: 78px;
+}
+.button_gameinstructions{
+    background-image:url('/images/menu_gameinstructions.jpg');
+    width: 159px;
+}
+.button_poker{
+    background-image:url('/images/menu_poker.jpg');
+    width: 77px;
+}
+.button_enquete{
+    background-image:url('/images/en_EN/menu_enquete.gif');
+    width: 103px;
+}
+#menu_header{
+    display:inline;
+    list-style:none;
+    height:58px;
+}
+#menu_header li{
+    display:inline;
+    float:left;
+    height: 37px;
+    /*padding-top: 12px;*/
+}
+#inlgelogd{
+    float:right;
+    padding-right:23px;
+    padding-top:7px;
+}
+.header_ingelogd{
+    float: left;
+    padding:6px;
+}
+/* /header */
+
+/* footer */
+#footer_menus{
+    background: url('/images/bg_footer.gif') repeat-x;
+    display:inline;
+    float:left;
+    height:40px;
+    list-style:none outside none;
+    margin:auto;
+    overflow:hidden;
+    text-align:center;
+    width:923px;
+}
+#footer_menu li{ 
+    float:left;
+}
+#footer_paymentoptions{
+    display:block;
+    clear:left;
+    background-color:#FFF;
+    display:block;
+    height:93px;
+    width:923px;
+}
+#footer_18plus{
+    float:left;
+    height:46px;
+    margin-top:7px;
+    padding-left:0;
+    width:50px;
+}
+#sheriff{
+	float: left;
+	margin: 6px 34px 0 34px;
+}
+#hyves{
+	float: left;
+	margin: 7px 7px 0 0;
+}
+#facebook{
+	float: left;
+	margin: 15px 7px 0 0;
+}
+#facebook_top{
+	float: left;
+	margin: 20px 7px 0 0;
+}
+#twitter{
+	float: left;
+	margin: 15px 7px 0 0;
+}
+#visa{
+    float:right;
+    height:46px;
+    width:57px;
+    margin-right:10px;
+}
+#mastercard{
+    float:right;
+    height:46px;
+    width:51px;
+    margin:0 10px 0 10px;
+}
+#clickandbuy{
+    float:right;
+    height:46px;
+    width:100px;
+	margin-top:4px;
+}
+#moneybookers{
+    float:right;
+    height:37px;
+    width:76px;
+	margin-top:8px;
+}
+#psc{
+    float:right;
+    height:37px;
+    width:130px;
+    margin: 10px 15px 0 15px;
+}
+#ideal{
+    float:right;
+    height:46px;
+    width:38px;
+    margin-right:15px;
+}
+#plain_text_bg {
+    width:100%;
+}
+#plain_text_area {
+    background-color:#FFFFFF;
+    border:1px solid #003353;
+    margin:14px 0 14px 0;
+    padding: 14px 36px 0 36px;
+    text-align:left;
+    width:660px;
+}
+#plain_text_header {
+    height:             28px;
+    color:              #FFFFFF;
+    padding-left:       10px;
+    padding-top:        5px;
+    width:              657px;
+    background:         url('/images/header_textpage.png');
+    background-repeat:  no-repeat;
+}
+.plain_text {
+    font-family: Verdana;
+    font-size: 8pt;
+    overflow: hidden;
+    padding: 5px 0 22px 0;
+}
+.plain_text p{
+	margin: 0 0;
+}
+#left_help_column{
+    width: 243px;
+}
+#right_help_column{
+    width: 200px;
+    margin-right: 100px;
+}
+.helplist ul{
+    margin-top: 0px;
+    padding-left: 15px;
+}
+#left_help_column{
+    float: left;
+}
+#right_help_column{
+    float: right;
+}
+.form_input_text {
+    background-image:   url('/images/input_text.gif');
+    background-repeat:  no-repeat;
+    padding-left:       5px;
+    padding-top:        5px;
+    width:              182px;
+    height:             24px;
+    color:              #FFFFFF;
+    border:0px;
+}
+.form_input_text_small{
+    background-image:   url('/images/input_text_small.gif');
+    background-repeat:  no-repeat;
+    padding-left:       5px;
+    padding-top:        5px;
+    width:              46px;
+    height:             24px;
+    color:              #FFFFFF;
+    border:             0px;
+}
+.form_input_text_medium{
+    background-image:   url('/images/input_text_small.gif');
+    background-repeat:  no-repeat;
+    padding-left:       5px;
+    padding-top:        5px;
+    width:              46px;
+    height:             24px;
+    color:              #FFFFFF;
+    border:             0px;
+}
+.form_input_select {
+    background-color:   #006699;
+    width:              182px;
+    height:             24px;
+    border-style:       double;
+    border-color:       #CFCFCF;
+    color:              #FFFFFF;
+}
+.input_textarea {
+    background-image:   url('/images/input_textarea.gif');
+    background-repeat:  no-repeat;
+    padding-left:       5px;
+    padding-top:        5px;
+    width:              211px;
+    height:             100px;
+    color:              #FFFFFF;
+    border:             0px;
+}
+.input_submit{
+    background-image:   url('/images/input_submit.gif');
+    background-repeat:  no-repeat;
+    width:              82px;
+    height:             30px;
+    border:             0px;
+    color:              #FFFFFF;
+}
+.txtright {
+    text-align:         right;
+}
+a footer_links:link{
+    font-size:13px;
+    line-height:24pt;
+}
+/* /footer */
+
+/* leftbar */
+#welcomeBonus{
+	margin-top: 1px;
+	z-index: -1;
+}
+.leftbardiv{
+    margin: 11px 0 0 0;
+    float:left;
+    text-align:right;
+    width:242px;
+}
+.leftbarrecent{
+	height: 210px;
+	margin-top: 6px;www.amst}
+
+.leftbarregister{
+	height: 203px;
+}
+.leftbarbonus{
+	height: 258px; !important
+}
+.leftbarbigwinners{
+	height: 215px;
+}
+.meestrecentewinnaars{
+    background-color:#FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    border-left-color:#333;
+    border-right-color:#333;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    width:265px;
+    font-size: 11px;
+    line-height: 12pt;
+    overflow:hidden;
+}
+.fix_left_upper{
+    margin:0;
+    line-height:inherit;
+    padding:0;
+    width:50%;
+    padding-left:10px;
+}
+.fix_right_upper{
+    margin:0;
+    line-height:inherit;
+    padding:0;
+    width:50%;
+    padding-right:10px;
+}
+.fix_left_lower{
+    margin:0;
+    line-height:inherit;
+    padding:0;
+    width:50%;
+    padding-left:10px;
+    background-color:#cfddd8; /*#aecec4;*/
+    color:#1d4237;
+}
+.fix_right_lower{
+    margin:0;
+    line-height:inherit;
+    padding:0;
+    width:50%;
+    padding-right:10px;
+    background-color:#82a79a;
+    color:#FFFFFF;
+}
+.winnerslist{
+    padding-top:3px;
+    padding-left:5px;
+    padding-right:0px;
+    width:260px;
+    overflow:hidden;
+}
+#balance_choose_game{
+    background-image: url('/images/lobbymenu_balancebg.jpg');
+    float:right;
+    width:236px;
+    height:28px;
+}
+#balance_header{
+    padding-bottom:15px;
+}
+/* /leftbar */
+
+/* page */
+#kader_blauw_content{
+    float:left;
+    width:573px;
+    border-right:solid 1px #666666;
+    border-left: solid 1px #666666;
+    background-color:#d8d8d8;
+}
+#kader_wit_content{
+    background-color:#FFF;
+    float:left;
+    width:497px;
+	height:100%;
+    display:block;
+    text-align:left;
+    font-size:11px;
+    line-height:14pt;
+    padding: 1px 38px 10px 38px;
+    border-color:#000;
+    border-right:solid 1px;
+    border-left: solid 1px;
+}
+#snowman{
+    float: right;
+    margin-top: -100px;
+}
+#gameofthemonth{
+    height:32px;
+    width: 104px;
+    margin:-4px 0 0 -20px;
+    padding:185px 0 0 434px;
+    display:block;
+}
+#gameofthemonthbutton{
+    float: right;
+}
+#meestgespeeld{
+    float: left;
+	margin: 11px 0 0 10px;
+	z-index: -1;
+}
+#ticker{
+    background-image: url('/images/bg_thicker.gif');
+    background-repeat:no-repeat;
+    width:549px;
+    height:38px;
+    padding-top:3px;
+}
+#slots{
+	background: url('/images/nieuwespellen_header.png') no-repeat 10px 11px;
+    display:block;
+    height:149px;
+    width:auto;
+}
+#tolobby{
+	height: 40px;
+	margin: 8px 0 10px 0;
+}
+
+#homepage_slot1{	float:left; width: 140px; }
+#homepage_ticker1{	float:left; width: 133px; }
+#homepage_slot2{ 	float:left; }
+#homepage_ticker2{	float:left; width: 133px; }
+#homepage_slot3{	float:left; }
+#homepage_ticker3{	float:left; width: 143px; }
+#homepage_slot4{	float:left; }
+#homepage_ticker4{	float:left; width: 133px; }
+
+.home_welkomkop{
+    font-size: 15px;
+    font-weight:bold;
+}
+.home_welkomtekst{
+    font-size:12px;
+    margin-bottom: 104px;
+}
+#home_tekstslots{
+    display:block;
+    padding-left:20px;
+    border:solid;
+    width:300px;
+    float:left;
+}
+.home_tekstslot{	
+    float:left;
+    width:125px;
+    padding-left:20px;
+    display:block;
+}
+#banner_livegames{
+    background-image:url(/images/banner_livegames.jpg);
+    display:block;
+    height:50px;
+    margin-left:-18px;
+    padding:153px 0 0 345px;
+}
+#banner_herfstactie {
+    background-image:url(/images/herfstactiebanner.jpg);
+    height:274px;
+    margin:0 0 -16px -38px;
+    width:573px;
+}
+/* /page */
+
+/* leftbar lobby */
+#leftbar_lobby{
+    padding:13px 20px 14px 35px;
+    float:left;
+    display:block;
+    width:242px;
+    height:100%;
+    padding-right:24px;
+}
+#lobbymenu_container{
+	background: url("/images/lobbymenu_bg_full.png") no-repeat right 0;
+	width: 242px;
+	text-align: center;
+}
+a.lobbymenu_item{
+	background: url("/images/lobbymenu_bg.png") no-repeat right -32px;
+	width: 242px;
+	height: 32px;
+	display: block;
+	text-decoration: none;
+	font-family: Arial;
+	color: #FFF;
+	line-height: 30px;
+	font-size: 15px;
+}
+a.lobbymenu_item_first{
+	background: url("/images/lobbymenu_bg_first.png") no-repeat right -32px;
+}
+a.lobbymenu_item_last{
+	background: url("/images/lobbymenu_bg_last.png") no-repeat right -32px;
+}
+a.lobbymenu_item_1{
+	background: url("/images/lobbymenu_bg_hot.png") no-repeat right -32px;
+}
+a.lobbymenu_item_5{
+	background: url("/images/lobbymenu_bg_tip.png") no-repeat right -32px;
+}
+a.lobbymenu_item_100{
+	background: url("/images/lobbymenu_bg_freespins.png") no-repeat right 0;
+	height: 34px;
+}
+#lobbymenu_link_100{
+	background: #FFF;
+	height: 64px;
+}
+a.lobbymenu_item:hover{
+	background-position: right 0;
+}
+.lobbyslot{
+    float:left;
+}
+.progressive_slot{
+	height:74px;
+	width: 106px;
+	display:block;
+}
+.progressive_abracadabra{
+	background:url(/images/lobbymenu_slot_abracadabra_groot.png) no-repeat 0 0;
+	width: 216px!important;
+}
+.progressive_incash{
+	background:url(/images/lobbymenu_slot_incash_groot.png) no-repeat 0 0;
+	width: 216px!important;
+}
+.progressive_bugs{
+	background:url(/images/lobbymenu_slot_bugs_groot.png) no-repeat 0 0;
+	width: 216px!important;
+}
+.progressive_fortunefarm{
+	background:url(/images/lobbymenu_slot_fortunefarm_groot.png) no-repeat 0 0;
+	width: 216px!important;
+}
+.progressive_kingscastle{
+	background:url(/images/lobbymenu_slot_kingscastle_groot.png) no-repeat 0 0;
+	width: 216px!important;
+}
+.progressive_pharaohstomb{
+	background:url(/images/lobbymenu_slot_pharaohstomb_groot.png) no-repeat 0 0;
+	width: 216px!important;
+}
+.progressive_dinosrhino{
+	background:url(/images/lobbymenu_slot_dinosrhino_groot.png) no-repeat 0 0;
+	width: 216px!important;
+}
+.progressive_zoozillionaire{
+	background:url(/images/lobbymenu_slot_zoozillionaire_groot.png) no-repeat 0 0;
+	width: 216px!important;
+}
+.progressive_drmagoo{
+	background:url(/images/lobbymenu_slot_dm.png) no-repeat 0 5px;
+}
+.progressive_mcmurphy{
+	background:url(/images/lobbymenu_slot_mcmurphys.png) no-repeat 0 5px;
+}
+.progressive_shangrila{
+	background:url(/images/lobbymenu_slot_shangri.png) no-repeat 0 5px;
+}
+.progressive_dogcasher{
+	background:url(/images/lobbymenu_slot_dogcasher.png) no-repeat 0 5px;
+}
+.progressive_frenchcuisine{
+	background:url(/images/lobbymenu_slot_frenchcuisine.png) no-repeat 0 5px;
+}
+.progressive_crazyjewelry{
+	background:url(/images/lobbymenu_slot_cj.png) no-repeat 0 5px;
+}
+.progressive_phraraohs{
+	background:url(/images/lobbymenu_slot_pharaohs.png) no-repeat 0 5px;
+}
+.progressive_beretta{
+	background:url(/images/lobbymenu_slot_beretta.png) no-repeat 0 5px;
+}
+.progressive_funkychicken{
+	background:url(/images/lobbymenu_slot_funkychicken.png) no-repeat 0 5px;
+}
+.progressive_slotoffortune{
+	background:url(/images/lobbymenu_slot_slotoffortune.png) no-repeat 0 5px;
+}
+
+.featured_pizzaprize{
+	background:url(/images/featured_pizzaprize.png) no-repeat 0 5px;
+}
+.featured_munchers{
+	background:url(/images/featured_munchers.png) no-repeat 0 5px;
+}
+.featured_piggybank{
+	background:url(/images/featured_piggybank.png) no-repeat 0 5px;
+}
+.featured_wonderwoman{
+	background:url(/images/featured_wonderwoman.png) no-repeat 0 5px;
+}
+.featured_jokerjester{
+	background:url(/images/featured_jokerjester.png) no-repeat 0 5px;
+}
+.featured_foxinwins{
+	background:url(/images/featured_foxinwins.png) no-repeat 0 5px;
+}
+.featured_merlinsmillions{
+	background:url(/images/featured_merlinsmillions.png) no-repeat 0 5px;
+}
+.featured_frogroyale{
+	background:url(/images/featured_frogroyale.png) no-repeat 0 5px;
+}
+.featured_superman{
+	background:url(/images/featured_superman.png) no-repeat 0 5px;
+}
+.featured_greenlantern{
+	background:url(/images/featured_greenlantern.png) no-repeat 0 5px;
+}
+.featured_iriseyes2{
+	background:url(/images/featured_iriseyes2.png) no-repeat 0 5px;
+}
+.featured_theflash{
+	background:url(/images/featured_theflash.png) no-repeat 0 5px;
+}
+
+.lobbyslots{
+    float:left;
+    width:220px;
+    margin:4px 8px; /*8px*/
+}
+#meestgespeeld2{
+    text-align:center;
+    width:236px;
+    float:right;
+    border-color:#666666;
+    border-right:solid 1px;
+    border-left: solid 1px;
+    background-color:#FFF;
+}
+.lobbyslot_jp{
+    height:23px;
+    /*padding-top:2px;*/
+    width:106px;
+    background-image: url('/images/lobbymenu_meestgespeeld_ticker.jpg');
+}
+.lobbyslot_wide{
+    height:22px;
+    /*padding-top:2px;*/
+    width:106px;
+    background: url('/images/lobbymenu_meestgespeeld_ticker.jpg') no-repeat 55px 0;
+}
+.lobbygame_header1{
+    background-image: url('/images/lobby_slots_bg_green.png');
+    background-repeat:no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFF;
+    /*margin-top: 1px;*/
+    width:573px;
+    text-align:left;
+    height:30px;
+    float: left;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.lobbygame_header2{
+    background-image: url('/images/lobby_slots_bg_green.png');
+    background-repeat:no-repeat;
+    font-family: Arial, Helvetica, sans-serif; /*Futura, */
+    color:#FFF;
+    /*margin-top: 10px;*/
+    float: left;
+    width:573px;
+    text-align:left;
+    height:30px;
+    padding-top:  20px;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.lobbygames{
+    top: 0px;
+    width:576px;
+    float:left;
+    text-align:left;
+    margin-bottom: 10px;
+}
+.lobbygame{
+    float:left;
+    padding:5px 2px 0 8px;
+    text-align:center;
+    width: 130px;
+	height: 133px;
+}
+.lobbybutton{
+    display: block;
+    height: 23px;
+    *height: 20px;
+}
+.lobbyteller{
+    background: url('/images/lobby_teller.jpg') no-repeat;
+    height:35px;
+    margin:20px 0 0 3px;
+    *margin:0 0 0 0;
+    width:120px;
+}
+.lobbytellertable{
+    background: url("/images/lobby_teller.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    float: left;
+    height: 35px;
+    margin: -5px 0 0 3px;
+    padding-top: 3px;
+    width: 120px;
+}
+.gamebutton{
+    height: 20px;
+}
+.lobbygame_last{
+    height: 130px;
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.lobbygame_text{
+    font-size:10px;
+    width:120px;
+    height:130px;
+    border:hidden;
+    border-width:1px;
+    border-color:silver;
+    float:left;
+    padding-top:8px;
+    margin-left:13px;
+    padding-bottom:2px;
+    padding-right:7px;
+    line-height: 13px;
+}
+.lobbygame_last_text{
+    font-size:10px;
+    width:120px;
+    height:150px;
+    border:hidden;
+    border-color:silver;
+    border-width:1px;
+    float:left;
+    margin-left:5px;
+    padding-top:8px;
+    padding-bottom:2px;
+}
+.gameline{
+    clear:both;
+}
+.lobbygames_content{
+    background-color:#FFF;
+    border-left: solid;
+    float:left;
+    padding:0 0 15px 10px;
+    width:564px;
+    border-right: solid;
+    border-width: 1px;
+}
+/* /leftbar */
+
+/*
+ * promooverlay styling
+ * 
+*/
+#vip{
+    float:right;
+    display:block;
+    clear:right;
+    text-align:right;
+    padding-right:27px;
+    padding-top:10px;
+}
+#vipbutton{
+    display:block;
+    float:left;
+}
+#scv4fR{
+    display: inline;
+}
+#vipstatus{
+    display:block;
+    float:left;
+    padding-right:10px;
+}
+.vip_link{
+    color:#FF0000;
+}
+a.vip_link:link{
+    color:#FF0000;
+}
+#chooseplaytype{
+    height:350px;
+    width:100%;
+    background-image: url('/images/chooseplaytype_pg.png');
+}
+#cpt_login_real{
+    position: relative;
+    background: url(/images/cpt_loginform.png) no-repeat;
+    width: 393px;
+    height: 335px;
+}
+#cpt_login_fun{
+    position: relative;
+    background: url(/images/cpt_guestform.png) no-repeat;
+    width: 393px;
+    height: 335px;
+    margin-left:57px;
+    margin-right:29px;
+}
+#cpt_playforfun{
+    position: relative;
+	float:left;
+	padding-left:57px;
+	padding-right:29px;
+	padding-top:15px;
+}
+#cpt_playforreal{
+    position: relative;
+	float:right;
+	padding-top:15px;
+	padding-right:49px;
+}
+#cpt_show_fun{
+    position: relative;
+	display:none;
+	padding-top:15px;
+	float:left;
+}
+#cpt_show_real{
+    position: relative;
+	display:none;
+	float:left;
+	padding-top:15px;
+}
+#cpt_register{
+	z-index:100;
+	position:relative;	
+	display:block;
+	clear:both;
+	width:280px;
+	top:-123px;
+    padding-left: 9px;
+}
+#cpt_guestform{
+	padding-top:30px;
+	width:200px;
+	text-align:center;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+#cpt_loginform {
+	padding-top:70px;
+	width:173px;
+	text-align:center;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.cpt_inlog_form_text{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	letter-spacing:10pt;
+	padding-left:10px;
+	color:#FFF;
+	width:100%;
+	text-align:left;
+}
+.cpt_inlog_form_buttons{
+	padding: 8px;
+}
+.cpt_inlog_form_button{
+	text-align:left;
+	width:167px;
+	height:22px;
+}
+.cpt_inlog_input{
+	background-image:url('/images/cpt_loginform_textfield.gif');
+	background-repeat:no-repeat;
+	padding-top:6px;
+	padding-left:12px;
+	width:167px;
+	height:22px;
+	color:#FFF;
+	border:0px;
+	background-color: #a11d17;
+}
+.cpt_theform{
+	display:inline;
+}
+.cpt_inlog_submit{
+	background-image:url('/images/cpt_loginform_submit.png');
+	background-repeat:no-repeat;
+	padding-top:10px;
+	display:block;
+	width:80px;
+	height:29px;
+	border:0;
+}
+#cpt_inlog_submit_t{
+	padding-left:55px;
+}
+a.cpt_inlog_form_link:link{
+	font-size:12px;
+	font-weight:200;
+    line-height:33px;
+	color: #FFF;
+}
+a.cpt_inlog_form_link:visited{
+    line-height:33px;
+	font-size:12px;
+	font-weight:200;
+	color: #FFF;
+}
+#submenu_header {
+	list-style-type:none;
+}
+#submenu_header li {
+	float:left;
+}
+.clear {
+	clear:both;
+}
+div.inp input {
+	background-image: url("/images/bg_logininput.gif");
+	background-repeat:no-repeat;
+	width:160px;
+	height:24px;
+	padding-left:12px;
+	padding-top:5px;
+	padding-right:10px;
+	color:#FFF;
+	border:0px;	
+}
+#ReviewData {
+	color:#000; /*#E9D5BD*/
+	font-weight:bold;
+}
+#CashierContent {
+	
+}
+#MoneyData{
+	width:600px;
+	float:left;
+	display:block;
+}
+div.rgl           { clear:both; display:block; margin:0; line-height:20px; }
+div.rgl div       { background-color:transparent; display:inline; float:left; height:33px;}
+div.rgl div.pfx   { text-align:center; width:10px;}
+div.rgl div.hdr   { background-color:transparent; padding-right:5px; text-align:right; width:125px;}
+div.rgl div.hdr_err { color:#FF0000;font-weight:bold; padding-right:5px; text-align:right; width:125px;}
+div.rgl div.inp   { width:240px;}
+div.rgl p         { padding: 2px 3px; width:96%;}
+
+div.rgl div.am,  
+div.rgl div.cd,
+div.rgl div.dt,  
+div.rgl div.tp,
+div.rgl div.vw    { margin: 0 1px; }
+
+div.rgl div.dt    { margin-left:0; width: 127px; }  
+div.rgl div.am    { width: 70px; text-align:right;}   
+div.rgl div.tp    { width: 140px; text-align:center;}
+div.rgl div.cd    { width: 176px; text-align:center;}
+div.rgl div.vw    { width: 82px; margin-right:0; text-align:right;}
+div.vw span.cnc   { color: red; }
+
+.subhdr        { border-bottom:1px solid #999; margin: 2px 2px 0;height:20px; }
+div.subhdr div    { border:1px solid #999; border-bottom:0px; margin:0 10px 0 0; padding:0 5px; height: 20px; }
+div.cnc           { margin-top: 0; min-height: 250px; }  
+div.his           { border-top:0px; margin-top: 0; min-height: 290px; }  
+
+#error_text{
+	font-size:15px;
+	font-weight:bolder;
+}
+a.error:link{
+	text-decoration:underline;
+}
+a.error:hover{text-decoration:underline;}
+a.error:visited{text-decoration:underline;}
+a.error:active{text-decoration:underline;}
+.exp_head{ font-weight:bolder;}
+
+#home_spelvdmaand {
+    float:none;
+    height:130px;
+    margin-bottom:40px;
+    margin-left:-33px;
+    margin-right:-33px;
+    width:545px;
+}
+#home_spelvdmaand_bar {
+    display:block;
+    float:none;
+    height:5px;
+    margin-left:458px;
+    margin-right:2px;
+    margin-top:41px;
+}
+.scratch {
+    background-image: url('/images/ccw_actie_image_home.jpg');
+    width:508px;
+    height:263px;
+}

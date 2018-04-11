@@ -1,0 +1,235 @@
+﻿<configXML>
+
+	<multiLingualStrings>	
+	 <!-- Start generic static text -->	
+	 
+	<textvalue id="txtAutoplay1" text="5 SPINS" font="FontMeter" />
+   <textvalue id="txtAutoplay2" text="10 SPINS" font="FontMeter" />
+   <textvalue id="txtAutoplay3" text="25 SPINS" font="FontMeter" />
+   <textvalue id="txtAutoplay4" text="50 SPINS" font="FontMeter" />
+   <textvalue id="txtAutoplay5" text="100 SPINS" font="FontMeter" />
+   <textvalue id="txtAutoplay6" text="250 SPINS" font="FontMeter" />
+   <textvalue id="txtAutoplay7" text="500 SPINS" font="FontMeter" />
+   <textvalue id="txtAutoplay8" text="CANCEL" font="FontMeter" />
+	 
+	 
+	 
+	
+   	<textvalue id="txtMainGame1" text="Connecting to server"/>
+   	<textvalue id="txtMainGame2" text="Connection failed"/>
+   	<textvalue id="txtMainGame3" text="Loading"/>
+   	<textvalue id="txtMainGame4" text="Loading complete"/>
+    	<textvalue id="txtMainGame5" text="Help"/>
+    	<textvalue id="txtMainGame6" text="Close"/>
+    	<textvalue id="txtMainGame7" text="Balance"/>
+	<textvalue id="txtMainGame8" text="Stake"/>
+	<textvalue id="txtMainGame9" text="Odds"/>
+    	<textvalue id="txtMainGame10" text="Win"/>
+    	<textvalue id="txtMainGame11" text="To Win"/>
+    	<textvalue id="txtMainGame12" text="OK"/>
+    	<textvalue id="txtMainGame13" text="Prize Table" />
+    	<textvalue id="txtMainGame14" text="Play" />
+    	<textvalue id="txtMainGame15" text="Go" />
+    	<textvalue id="txtMainGame16" text="Bet"/>  
+    	<textvalue id="txtMainGame17" text="Submit"/>
+    	<textvalue id="txtMainGame18" text="Submit Bet"/>
+    	<textvalue id="txtMainGame19" text="Submit All Bets"/>
+    	<textvalue id="txtMainGame20" text="Cashout" />    
+    	<textvalue id="txtMainGame21" text="Return" />    
+    	<textvalue id="txtMainGame22" text="Bank" />    
+    	<textvalue id="txtMainGame23" text="Bonus" />    
+    	<textvalue id="txtMainGame24" text="Total Stake" />    
+    	<textvalue id="txtMainGame25" text="Max. Return" />    
+    	<textvalue id="txtMainGame26" text="Max. Win" />    
+    	<textvalue id="txtMainGame27" text="Jackpot" />    
+    	<textvalue id="txtMainGame28" text="Play Again"/>
+    	<textvalue id="txtMainGame29" text="Please try again" />    
+    	<textvalue id="txtMainGame30" text="Play for Fun"/>
+    	<textvalue id="txtMainGame31" text="Play for Real"/>
+    	<textvalue id="txtMainGame32" text="Game Over"/>
+    	<textvalue id="txtMainGame33" text="Cancel"/>
+    	<textvalue id="txtMainGame34" text="Clear All"/>
+    	<textvalue id="txtMainGame35" text="To play this game you require the latest version Flash Player. Please click the link below and follow the quick and simple installation instructions."  />
+    	<textvalue id="txtMainGame36" text="Get flash player"/> 
+	
+		<textvalue id="txtMainGame37" text="WIN"/>
+		<textvalue id="txtMainGame38" text="SPIN" font="Font3" />    
+		<textvalue id="txtMainGame39" text="INFO" font="Font3" />
+		<textvalue id="txtMainGame40" text="SET"/> 
+		<textvalue id="txtMainGame41" text="BALANCE"/> 
+		<textvalue id="txtMainGame42" text="CREDIT BALANCE"/> 
+		<textvalue id="txtMainGame43" text="LINES"/>
+		<textvalue id="txtMainGame44" text="BET"/>
+		<textvalue id="txtMainGame45" text="TOTAL BET"/>
+		<textvalue id="txtMainGame46" text="MAX LINES"/>
+		<textvalue id="txtMainGame47" text="AUTO"/>
+		<textvalue id="txtMainGame48" text="PLAY"/>
+	  	<textvalue id="txtMainGame49" text="SPINS"/>
+	  	<textvalue id="txtMainGame50" text="STOP"/>
+		<textvalue id="txtMainGame51" text="GAME" font="Font3" />
+	  	<textvalue id="txtMainGame52" text="NEXT" font="Font3" />
+	  	<textvalue id="txtMainGame53" text="BACK" font="Font3" />
+	  	<textvalue id="txtMainGame54" text="PAYLINES"/>
+		<textvalue id="txtMainGame55" text="MAX" font="Font3" />
+		<textvalue id="txtMainGame56" text="AUTOPLAY" font="Font3" />
+		<textvalue id="txtMainGame57" text="STOP SPIN" font="Font3" />
+		<textvalue id="txtMainGame58" text="CONTINUE" font="Font3" />
+		<textvalue id="txtMainGame60" text="GAMBLE" font="Font3" />	
+		<textvalue id="txtMainGame61" text="OK"/>
+		<textvalue id="txtMainGame62" text="CARD HISTORY" font="Font2"/>
+		<textvalue id="txtMainGame63" text="RED" font="Font2" />
+		<textvalue id="txtMainGame64" text="BLACK" font="Font2" />
+		<textvalue id="txtMainGame65" text="TAKE WIN" font="Font2" />
+		<textvalue id="txtMainGame66" text="WIN" font="Font2" />		
+		<textvalue id="txtMainGame67" text="COLOUR WIN" font="Font2" />	
+		<textvalue id="txtMainGame68" text="SUIT WIN" font="Font2" />	
+		<textvalue id="txtMainGame69" text="SELECT CORRECT COLOUR OR SUIT TO WIN" font="Font2" />
+		
+
+		
+		
+		<textvalue id="txtPaytable1" text="WILD"/>
+		<textvalue id="txtPaytable2" text="SCATTER"/>
+	  	<textvalue id="txtPaytable3" text="OF A KIND"/>
+		<textvalue id="txtPaytable4" text="#C1[GENIE] substitutes for all symbols except scattered #C2[BOTTLE]" font="Font2"/>
+		<textvalue id="txtPaytable5" text="Scatter wins are multiplied by the total amount staked" font="Font2"/>
+		
+		<textvalue id="txtPaytable6" text="FREE GAMES FEATURE"/>
+		<textvalue id="txtPaytable7" text="#C2[WIN 10 Free Games] when 3 or more scattered #C2[BOTTLE] appear &#xD; During the Free Games feature, #C1[GENIE] may randomly #C2[EXPAND] to cover #C2[ALL] positions on any reel" font="Font2"/>
+		<textvalue id="txtPaytable8" text="Refer to #C2[RULES] page for more details" font="Font2"/>
+		
+		<textvalue id="txtPaytable9" text="Payline wins are multiplied by the amount staked per payline" font="Font2"/>
+		<textvalue id="txtPaytable10" text="ANY" font="Font2"/>	
+				
+
+		
+		<textvalue id="txtSubPay1" text="5 &#183; 5000&#xD;4 &#183; 1000&#xD;3 &#183; 200&#xD;2 &#183; 10"/>
+		<textvalue id="txtScatterPay1" text="5 &#183; 100&#xD;4 &#183; 15&#xD;3 &#183; 4&#xD;2 &#183; 2"/>		
+	
+
+		
+		<textvalue id="txtLinePay1" text="5 &#183; 1500&#xD;4 &#183; 500&#xD;3 &#183; 60&#xD;2 &#183; 5"/>
+		<textvalue id="txtLinePay2" text="5 &#183; 750&#xD;4 &#183; 250&#xD;3 &#183; 50&#xD;2 &#183; 4"/>
+		<textvalue id="txtLinePay3" text="5 &#183; 400&#xD;4 &#183; 100&#xD;3 &#183; 20"/>
+		<textvalue id="txtLinePay4" text="5 &#183; 200&#xD;4 &#183; 75&#xD;3 &#183; 15"/>
+		<textvalue id="txtLinePay5" text="5 &#183; 150&#xD;4 &#183; 50&#xD;3 &#183; 10"/>
+		<textvalue id="txtLinePay6" text="5 &#183; 100&#xD;4 &#183; 20&#xD;3 &#183; 5"/>
+	
+		
+	    
+	  	<textvalue id="txtRules1" text="GAME RULES"/>
+		<textvalue id="txtRules2" text="&#183; Play 1 to 25 lines &#xD;&#183; Payouts are made according to the Paytable &#xD;&#183; Payline wins are multiplied by the amount staked per payline &#xD;&#183; Scatter wins are multiplied by the total amount staked &#xD;&#183; Scatter wins are added to payline wins &#xD;&#183; Highest win only on each selected payline &#xD;&#183; Coinciding wins on different paylines are added &#xD;&#183; All symbols pay Left to Right except scattered #C2[Bottle] which pays any &#xD;&#183; #C1[Genie] substitutes for all symbols except scattered #C2[Bottle]" font="Font2"/>
+	
+
+		
+		<textvalue id="txtFeature1" text="GENIE WILD FEATURE"/>
+		
+		<textvalue id="txtFeature2" text="&#183; #C2[10 Free Games] are awarded when 3 or more scattered #C2[Bottle] appear &#xD;&#183; During the Free Games, #C1[Expanded Wild Genie] symbols may appear over reels &#xD;&#183; Free Games cannot be re-triggered &#xD;&#183; Free Games are played at the lines and bet of the trigger game" font="Font2"/>	
+		
+		
+		<textvalue id="txtGamble1" text="GAMBLE FEATURE (IF APPLICABLE)"/>
+		<textvalue id="txtGamble2" text="&#183; To gamble any win press #C1[GAMBLE] then select #C2[COLOUR] or a #C2[SUIT] &#xD;&#183; Win is #C2[DOUBLED (X2)] if #C1[COLOUR] choice is correct &#xD;&#183; Win is #C2[QUADRUPLED (X4)] if #C1[SUIT] choice is correct &#xD;&#183; Winnings may be gambled up to 5 times &#xD;&#183; Progressive Jackpot Wins (if available) may not be gambled" font="Font2"/>
+
+		
+	
+		<textvalue id="txtSummaryScreen1" text="CONGRATULATIONS!"/>
+		<textvalue id="txtSummaryScreen2" text="TOTAL WIN"/>
+	
+		
+		<textvalue id="txtPaylineDiagrams1" text="PAYLINE DIAGRAMS"/>
+				
+		<textvalue id="txtDialog1" qa="true" text="OK" font="FontMeter"/>
+	
+	 <!-- WelcomeNote -->		
+		<textvalue id="txtWelcomeNote1" text="Click anywhere to PLAY. Good Luck!" font="Font2"/>		
+		<textvalue id="txtWelcomeNote2" text="Welcome To" font="Font2"/>	
+		<textvalue id="txtWelcomeNote3" text="#C1[WIN 10 Free Games] with 3 or more scattered" font="Font2"/>		
+		<textvalue id="txtWelcomeNote4" text="During the Free Games watch as&#xD;#C2[Genie] #C1[EXPANDS]&#xD;Awarding #C1[MAGICAL] prizes!" font="Font2"/>		
+
+	 <!-- Gamble Feature Title -->	
+		<textvalue id="txtGambleFeatureTitle" text="GAMBLE FEATURE"/>			
+
+
+
+	</multiLingualStrings>
+	
+	<textStrings>
+		<string name="GAMENAME"             				text="geniewild"/>
+		<string name="SOUNDENABLED"									text="Sound Enabled" />
+		<string name="SOUNDDISABLED"								text="Sound Disabled" />
+		
+		<string name="SPINMESSAGE" 									text="Good Luck!"/>	
+		
+		<string name="FEATUREAWARDED"						text="CONGRATULATIONS! Bonus Won"/>	
+		
+		<string name="FREEGAME_CONGRATS"						text="CONGRATULATIONS! Bonus Won"/>
+		<string name="FREEGAMEAWARDED"							text=" Free Game Won"/>
+		<string name="FREEGAMESAWARDED"							text=" Free Games Won"/>
+		<string name="FREEGAME_YOUVEWON"						text="You've won "/>
+		<string name="FREEGAME_YOUHAVEWON"					text="You have won "/>
+		<string name="FREEGAME_FROMYOURGAMES"				text=" from your free spins"/>
+		<string name="FREEGAME_FROMYOURGAME"				text=" from your free spin"/>
+		<string name="FREEGAMEXOFX1"						text="Free Game %s of %s"/>
+		<string name="FREEGAME_SPINSLEFT"						text=" spins left"/>
+		<string name="FREEGAME_SPINLEFT"						text=" spin left"/>
+		<string name="LASTFREEGAME"									text="Your last free spin"/>
+		
+		<string name="AUTOPLAYXOFX1"						text="Autoplay %s of %s "/>
+		
+		<string name="PLAYINGAUTOPLAY"							text="Playing Autospin" />	
+		<string name="AUTOPLAYGAMESREMAINING"				text=" Autospin Games Remaining" />	
+		<string name="AUTOPLAYGAMEREMAINING"				text=" Autospin Game Remaining" />
+		<string name="LASTAUTOPLAYGAME"							text="Last Autospin Game" />
+		<string name="AUTOPLAYCOMPLETE"							text="Autospin Finished" />
+		
+		<string name="SCROLL1"											text="WIN 10 Free Games with EXPANDING WILDS" />
+		<string name="SCROLL2"											text="LOOK out for 3 or more BOTTLE" />
+		<string name="SCROLL3"											text="Up to 3 EXPANDING WILDS in one spin!" />
+		<string name="SCROLL4"											text="GENIE is WILD with PRIZES!" />
+		<string name="SCROLL5"											text="All your wishes will come true" />
+		<string name="SCROLL6"											text="She’s a real gem!" />
+		<string name="SCROLL7"											text="GO GENIE GO!" />		
+		
+		<string name="STARTGAME"										text="PRESS 'SPIN' TO START THE GAME"/>
+		<string name="GAMEOVER" 										text="GAME OVER"/>
+		<string name="COMMSERROR"										text="Communication Error"/>
+		<string name="NOSERVERRESPONSE"							text="No response from server. Please login again"/>
+		<string name="MSGERRORMSG"									text="An unspecified error has occurred"/>
+		<string name="JACKPOTCONGRATS"							text="CONGRATULATIONS! YOU'VE WON THE JACKPOT AMOUNT OF "/>
+		<string name="LINESSELECTED"								text=" LINES SELECTED"/>
+		<string name="LINESELECTED"									text=" LINE SELECTED"/>
+		<string name="BETPERLINE"										text=" BET PER LINE"/>
+		<string name="FEATURETRIGGER"								text="FEATURE AWARDED"/>
+		<string name="BONUSSTRING"									text="Select all the symbols to reveal the cash!"/>
+		
+		<string name="AUTOPLAY_STOPPED"       			text="INSUFFICIENT BALANCE"/>		
+		<string name="AUTOPLAY_INSUFFICIENT"  			text="Adjust bet or add funds to continue play"/>		
+		<string name="LOW_BALANCE"            			text="INSUFFICIENT BALANCE"/>
+		<string name="INSUFFICIENT_FUNDS"     			text="Adjust bet or add funds to continue play"/>
+		<string name="BET_ADJUSTED"	       					text="Your bet has been adjusted"/>
+		
+		<string name="ERROR"												text="Error" />
+		<string name="ERROR_UNLOGIN"								text="Sorry, Your Session Expired, please reconnect game" />
+		<string name="ERROR_PROTOCOL"								text="Unknown protocol message" />
+		<string name="ERROR_PROTOCOL_SEQUENCE"			text="Incorrect Sequence of messages" />
+		<string name="ERROR_UNKNOWN_PARAMETER"			text="Unknown parameter in protocol" />
+		<string name="ERROR_MISSING_PARAMETER"			text="Missing parameter in protocol" />
+		<string name="ERROR_PARAMETER_VALUE"				text="Parameter Values is wrong" />
+		<string name="ERROR_BET_LIMITS"							text="Bet amount out of limits" />
+		<string name="ERROR_LINES"									text="Incorrect number of lines" />
+		<string name="ERROR_FEATURE_PARAMETERS"			text="Feature Parameters incorrect" />
+		<string name="ERROR_JACKPOT"								text="Unknown Jackpot error" />
+		<string name="ERROR_UNKNOWN"								text="Unknown error" />
+		<string name="ERROR_NULL"										text="Server communications lost" />
+		<string name="ERROR_INSUFFICIENTFUNDS"			text="Not enough balance for the Bet" />
+		<string name="ERROR_STATESAVE"							text="Error trying to save the state" />
+		<string name="ERROR_STARTGAME"							text="Error trying to start the game" />
+		<string name="ERROR_ENDGAME"								text="Error trying to end the game" />
+		<string name="ERROR_GAMENOTSUPPORTED"				text="Game isn't supported by the system" />	
+		<string name="ERROR_TIMEOUT"          			text="You have been disconnected from the Server.  Please restart the game." />
+		<string name="ERROR_SERVLET"          			text="Server communications lost" />
+		<string name="ERROR_DEFAULT"          			text="Server communications lost" />	
+		
+	</textStrings>
+
+</configXML>

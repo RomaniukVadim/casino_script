@@ -1,0 +1,149 @@
+a:active, a:focus{
+	outline-style: none;
+	-moz-outline-style:none; 
+}
+#game_background {
+    display:none;
+	position:fixed;
+    _position:absolute; /* hack for internet explorer 6*/
+	height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background:#000000;
+    border:1px solid #cecece;
+    z-index:1;
+}
+
+#game_continue {
+    background:url('images/popup_bg.jpg') no-repeat;	
+    display:none;
+    position:absolute;
+    _position:absolute; /* hack for internet explorer 6*/
+	top:50%;
+    left:50%;
+    z-index:2;
+    font-size:13px;
+    width:594px;
+	height:415px;
+	margin-left:-297px;
+	margin-top:-207px;
+}
+/*
+#game_continue_header {
+    background:url('/images/popup_bg.png') no-repeat;
+    height: 309px;
+    margin: -10px 0 -260px 0;
+}
+*/
+#game_continue h1 {
+    font-family: verdana;
+    color:#000;
+    font-size:12px;
+    font-weight:700;
+    margin-top:78px;
+    padding-left:22px;
+    padding-right:0;
+    text-align:left;
+}
+#game_continue_content {
+    display:block;
+    float:left;
+    margin:80px 0 0 153px;
+	height:78px;
+    width:300px;
+    text-align:left;
+	font-family: verdana;
+	color:#000;
+	font-size:12px;
+	letter-spacing:-0.5px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#game_continue_bottom {
+    background:url('images/popup_bottom_bg.png') bottom no-repeat;
+    width: 380px;
+    height: 10px;
+    display: block;
+    clear: both;
+	margin-bottom: -10px;
+}
+
+#game_over {
+    background:url('images/popup_bg.jpg') no-repeat;
+    display:none;
+    position:absolute;
+    _position:absolute; /* hack for internet explorer 6*/
+	top:50%;
+    left:50%;
+    z-index:2;
+    font-size:13px;
+    width:594px;
+	height:415px;
+	margin-left:-297px;
+	margin-top:-207px;
+}
+/*
+#game_over_header {
+    background:url('/images/popup_bg.png') no-repeat;
+    height: 309px;
+    margin: -10px 0 -260px 0;
+}
+#game_over h1 {
+    font-family: verdana;
+    color:#000;
+    font-size:12px;
+    font-weight:700;
+    margin-top:78px;
+    padding-left:22px;
+    padding-right:0;
+    text-align:left;
+}
+*/
+#game_over_content {
+    display:block;
+    float:left;
+    margin:70px 0 0 149px;
+	height:146px;
+    width:304px;
+    text-align:left;
+	font-family: verdana;
+	color:#000;
+	font-size:12px;
+	letter-spacing:-0.5px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#game_over_bottom {
+    background:url('images/popup_bottom_bg.png') bottom no-repeat;
+    width: 380px;
+    height: 10px;
+    display: block;
+    clear: both;
+	margin-bottom: -10px;
+}
+#game_bonus{
+	margin-left: 152px;
+}
+#game_close_button {
+    color:#6fa5fd;
+    display:block;
+    float: left;
+    clear: both;
+	margin:2px 0 0 149px;
+}
+#game_register_button{
+    color:#6fa5fd;
+    display:block;
+    float: left;
+    clear: both;
+	height: 44px;
+	margin:4px 0 4px 149px;
+}
+#game_continue_button {
+    color:#6fa5fd;
+    display:block;
+    float: left;
+    clear: both;
+    margin:5px 0 0 149px;
+}

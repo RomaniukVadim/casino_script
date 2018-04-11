@@ -1,0 +1,16 @@
+.hidden {
+	display: none;
+}
+#login_form label {
+	display: block;
+}
+#login_form p {
+	line-height: 1.6em;
+}
+#login_error {
+	color: red;
+	padding: 5px;
+}
+#login_validated {
+	background-color: green;
+}

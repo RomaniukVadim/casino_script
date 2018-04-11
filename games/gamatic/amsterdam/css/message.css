@@ -1,0 +1,70 @@
+#message_background {
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000;
+	border:1px solid #cecece;
+	z-index:1;
+}
+
+#message {
+	background-image:url('/images/popup_bg.png');
+	background-repeat:no-repeat;
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:440px;
+	width:340px;
+	z-index:2;
+	padding:12px;
+	font-size:13px;
+	margin-top:30px;
+	margin-right:35px;
+}
+
+#message h1 {
+	text-align:left;
+	color:#000000;
+	font-size:11px;
+	font-weight:700;
+	padding-left:30px;
+	padding-right:30px;
+	margin-top:110px;
+}
+
+#message_content {
+	font-size:11px;
+	padding-left:30px;
+	padding-right:30px;
+	line-height:normal;
+	width:286px;
+    height:230px;
+	float: left;
+	display: block;
+	text-align:left;
+	color:#000000;
+}
+
+#message_play {
+    padding-left: 20px;
+}
+
+
+#message_close {
+	display:block;
+	float: right;
+    margin-right:3px;
+    margin-top:10px;
+}
+
+#bonus {
+	color:#000000;
+	font-size:10px;
+	line-height:normal;
+	padding-left:30px;
+	padding-right:30px;
+}

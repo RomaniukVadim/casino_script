@@ -1,0 +1,16 @@
+#reg_form label {
+	display: block;
+}
+#reg_form p {
+	line-height: 1.6em;
+}
+#reg_error {
+	color: red;
+	padding: 5px;
+}
+#reg_validated {
+	background-color: green;
+}
+label.confirm {
+	display: inline !important;
+}
